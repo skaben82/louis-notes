@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Louis's Notes</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      background: #f5f6fa;
+      color: #1a1a1a;
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    .site-header {
+      background: #fff;
+      border-bottom: 1px solid #e4e7ef;
+      padding: 20px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .site-header h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      letter-spacing: -0.02em;
+    }
+    .site-header h1 span { color: #3b5bdb; }
+    .header-meta { font-size: 0.8rem; color: #888; }
+
+    /* ── Layout ── */
+    .container { max-width: 1100px; margin: 0 auto; padding: 32px 24px; }
+
+    /* ── Actions panel ── */
+    .actions-panel {
+      background: #fff;
+      border: 1px solid #e4e7ef;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 28px;
+    }
+    .actions-panel-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+    .actions-panel-header h2 {
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #3b5bdb;
+    }
+    .actions-count {
+      background: #3b5bdb;
+      color: #fff;
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 20px;
+    }
+    .actions-count.has-overdue { background: #c62828; }
+
+    .action-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 0;
+      border-bottom: 1px solid #f0f2f8;
+      font-size: 0.9rem;
+    }
+    .action-row:last-child { border-bottom: none; }
+    .action-dot {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: #3b5bdb; flex-shrink: 0;
+    }
+    .action-dot.overdue { background: #c62828; }
+    .action-dot.no-date { background: #bbb; }
+    .action-row-text { flex: 1; color: #1a1a1a; }
+    .action-row-note { font-size: 0.78rem; color: #888; }
+    .action-row-date {
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: #fff;
+      background: #3b5bdb;
+      padding: 2px 10px;
+      border-radius: 20px;
+      white-space: nowrap;
+    }
+    .action-row-date.overdue { background: #c62828; }
+    .action-row-date.no-date { background: #aaa; }
+
+    /* ── Stats cards ── */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+    .stat-card {
+      background: #fff;
+      border: 1px solid #e4e7ef;
+      border-radius: 12px;
+      padding: 18px;
+      text-align: center;
+    }
+    .stat-card-number {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #3b5bdb;
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+    .stat-card-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #888;
+    }
+
+    /* ── Search and filters ── */
+    .controls-section {
+      background: #fff;
+      border: 1px solid #e4e7ef;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 28px;
+    }
+    .search-box {
+      width: 100%;
+      padding: 12px 16px;
+      font-size: 0.95rem;
+      border: 1px solid #e4e7ef;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      font-family: inherit;
+    }
+    .search-box:focus {
+      outline: none;
+      border-color: #3b5bdb;
+      box-shadow: 0 0 0 2px rgba(59, 91, 219, 0.1);
+    }
+
+    .filter-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .filter-btn {
+      padding: 8px 16px;
+      border: 1px solid #e4e7ef;
+      background: #fff;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      color: #666;
+    }
+    .filter-btn:hover {
+      border-color: #3b5bdb;
+      color: #3b5bdb;
+    }
+    .filter-btn.active {
+      background: #3b5bdb;
+      color: #fff;
+      border-color: #3b5bdb;
+    }
+
+    /* ── Notes grid ── */
+    .notes-section {
+      margin-bottom: 32px;
+    }
+    .notes-section-header {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid #f0f2f8;
+    }
+    .notes-section-header h2 {
+      font-size: 0.9rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #666;
+    }
+    .notes-section-count {
+      font-size: 0.85rem;
+      color: #888;
+    }
+
+    .notes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+
+    .note-card {
+      background: #fff;
+      border: 1px solid #e4e7ef;
+      border-radius: 12px;
+      padding: 20px;
+      cursor: pointer;
+      transition: all 0.2s;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+    .note-card:hover {
+      border-color: #3b5bdb;
+      box-shadow: 0 4px 12px rgba(59, 91, 219, 0.08);
+    }
+
+    .note-card-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .note-card-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      line-height: 1.4;
+      flex: 1;
+    }
+    .note-card-delete-btn {
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #ccc;
+      font-size: 18px;
+      padding: 0;
+      opacity: 0;
+      transition: opacity 0.2s, color 0.2s;
+    }
+    .note-card:hover .note-card-delete-btn {
+      opacity: 1;
+    }
+    .note-card-delete-btn:hover {
+      color: #c62828;
+    }
+
+    .note-card-meta {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .note-card-date {
+      font-size: 0.78rem;
+      color: #888;
+    }
+    .note-card-tag {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 3px 8px;
+      border-radius: 16px;
+    }
+    .note-card-tag.work { background: #e8eeff; color: #3b5bdb; }
+    .note-card-tag.personal { background: #e8f5e9; color: #2e7d32; }
+    .note-card-tag.content { background: #fff3e0; color: #e65100; }
+    .note-card-tag.side-hustle { background: #fce4ec; color: #c62828; }
+
+    .note-card-snippet {
+      font-size: 0.85rem;
+      color: #666;
+      line-height: 1.5;
+      margin-bottom: 12px;
+      flex: 1;
+    }
+
+    .note-card-actions {
+      font-size: 0.78rem;
+      color: #3b5bdb;
+      font-weight: 600;
+      padding-top: 12px;
+      border-top: 1px solid #f0f2f8;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 48px 24px;
+      color: #888;
+    }
+    .empty-state-icon {
+      font-size: 3rem;
+      margin-bottom: 12px;
+    }
+
+    /* ── Delete modal ── */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+    }
+    .modal-overlay.show { display: flex; }
+
+    .modal {
+      background: #fff;
+      border-radius: 12px;
+      padding: 32px;
+      max-width: 400px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+    .modal h3 {
+      font-size: 1.1rem;
+      margin-bottom: 12px;
+      color: #1a1a1a;
+    }
+    .modal p {
+      color: #666;
+      margin-bottom: 24px;
+      font-size: 0.9rem;
+    }
+    .modal-buttons {
+      display: flex;
+      gap: 12px;
+    }
+    .modal-btn {
+      flex: 1;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+    }
+    .modal-btn.cancel {
+      background: #f0f2f8;
+      color: #1a1a1a;
+    }
+    .modal-btn.cancel:hover {
+      background: #e4e7ef;
+    }
+    .modal-btn.delete {
+      background: #c62828;
+      color: #fff;
+    }
+    .modal-btn.delete:hover {
+      background: #b71c1c;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 768px) {
+      .site-header { padding: 16px 20px; }
+      .container { padding: 20px 16px; }
+      .notes-grid { grid-template-columns: 1fr; }
+      .stats-grid { grid-template-columns: repeat(2, 1fr); }
+      .filter-buttons { gap: 8px; }
+      .filter-btn { padding: 6px 12px; font-size: 0.8rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="site-header">
+    <h1>Louis's <span>Notes</span></h1>
+    <div class="header-meta" id="headerMeta">Last updated —</div>
+  </div>
+
+  <div class="container">
+
+    <!-- Outstanding actions panel -->
+    <div class="actions-panel" id="actionsPanel" style="display: none;">
+      <div class="actions-panel-header">
+        <h2>Outstanding Actions</h2>
+        <span class="actions-count" id="actionsCount">0</span>
+      </div>
+      <div id="actionsList"></div>
+    </div>
+
+    <!-- Empty actions message -->
+    <div class="actions-panel" id="noActionsPanel" style="display: none;">
+      <div class="actions-panel-header">
+        <h2>Outstanding Actions</h2>
+        <span class="actions-count">0</span>
+      </div>
+      <p style="color: #888; margin: 0; font-size: 0.9rem;">No outstanding actions. You're all clear.</p>
+    </div>
+
+    <!-- Stats cards -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-card-number" id="totalNotesCount">0</div>
+        <div class="stat-card-label">Total Notes</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card-number" id="workNotesCount">0</div>
+        <div class="stat-card-label">Work</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card-number" id="personalNotesCount">0</div>
+        <div class="stat-card-label">Personal</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card-number" id="contentNotesCount">0</div>
+        <div class="stat-card-label">Content</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card-number" id="sideHustleNotesCount">0</div>
+        <div class="stat-card-label">Side Hustle</div>
+      </div>
+    </div>
+
+    <!-- Search and filters -->
+    <div class="controls-section">
+      <input type="text" class="search-box" id="searchInput" placeholder="Search notes...">
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="work">Work</button>
+        <button class="filter-btn" data-filter="personal">Personal</button>
+        <button class="filter-btn" data-filter="content">Content</button>
+        <button class="filter-btn" data-filter="side-hustle">Side Hustle</button>
+      </div>
+    </div>
+
+    <!-- Notes by area -->
+    <div id="notesContainer"></div>
+
+  </div>
+
+  <!-- Delete confirmation modal -->
+  <div class="modal-overlay" id="deleteModal">
+    <div class="modal">
+      <h3>Delete note?</h3>
+      <p id="deleteModalText">This note will be removed from your dashboard. The file stays on disk.</p>
+      <div class="modal-buttons">
+        <button class="modal-btn cancel" id="cancelDelete">Cancel</button>
+        <button class="modal-btn delete" id="confirmDelete">Delete</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // MANIFEST DATA — embedded directly for iOS compatibility
+    const MANIFEST = [
+  {
+    "title": "GKN notes",
+    "area": "work",
+    "date": "2026-05-13",
+    "snippet": "Cost calculation data from GKN session with scenarios A and B, questions about cost communications and tracking, presentation feedback notes, and session observations.",
+    "file": "work/2026-05-13-gkn-notes.html",
+    "actions": []
+  },
+  {
+    "title": "GKN Meeting Notes",
+    "area": "work",
+    "date": "2026-05-13",
+    "snippet": "Meeting notes from GKN session. Key items to follow up on: Eric to send the indirect cost purchasing policy, switch presenters, and ask GKN finance to provide GKN-specific examples. Open question around whether to use Excel for breakouts.",
+    "file": "work/2026-05-13-gkn-meeting-notes.html",
+    "actions": [
+      {"text": "Eric to send indirect cost purchasing policy", "date": null},
+      {"text": "Switch presenters", "date": null},
+      {"text": "Ask GKN finance to provide GKN examples", "date": null},
+      {"text": "Decide: use Excel for breakouts?", "date": null},
+      {"text": "Change the risk number on the breakout exercise cost estimation activity — 150 vs 220", "date": null},
+      {"text": "Too many words per slide on cost control / monitoring etc. — replace with pictures", "date": null},
+      {"text": "Noticed difference in departments — ELMO have a lot of systems and processes that other landing gear divisions do not (e.g. BI tool to analyse procurement data). How to get this across the wider business?", "date": null}
+    ]
+  },
+  {
+    "title": "Tekmar — cash model plan",
+    "area": "work",
+    "date": "2026-05-06",
+    "snippet": "Build a cash model for Tekmar. Ramp to 250 days. Remodel at 3 years.",
+    "file": "work/2026-05-06-tekmar-cash-model-plan.html",
+    "actions": []
+  },
+  {
+    "title": "3t — audit notes",
+    "area": "work",
+    "date": "2026-04-23",
+    "snippet": "Notes from the 3t audit. Large revenue samples reviewed. Key findings: no delivery notes since Inna started, one-off incorrect posting with duplicate invoice amounts, costs not accrued by business policy, cut-off checklist needed for month end.",
+    "file": "work/2026-04-23-3t-audit-notes.html",
+    "actions": []
+  },
+  {
+    "title": "3t — revenue recognition",
+    "area": "work",
+    "date": "2026-04-23",
+    "snippet": "Revenue recognition example for 3t. Original content was stored as an embedded image in Notion and cannot be recovered as text.",
+    "file": "work/2026-04-23-3t-revenue-recognition.html",
+    "actions": []
+  },
+  {
+    "title": "Scope — OODA loop project",
+    "area": "work",
+    "date": "2026-04-23",
+    "snippet": "Scoping notes for a project using the OODA loop (Observe, Orient, Decide, Act) as a framework for coaching material development. Scope areas include alignment to BTR, recommendations to uplift, timeline for potential material, business governance.",
+    "file": "work/2026-04-23-scope-ooda-loop-project.html",
+    "actions": []
+  },
+  {
+    "title": "Training skills — cross-function notes",
+    "area": "work",
+    "date": "2026-04-23",
+    "snippet": "Notes from a cross-function session on training skills frameworks. Quality has 50 skills defined in Workday with 20 generic job profiles. ME covers 30 roles for 30,000 people. People Development has a skills wheel and catalogue.",
+    "file": "work/2026-04-23-training-skills-cross-function.html",
+    "actions": []
+  },
+  {
+    "title": "Side hustle — goal & strategy",
+    "area": "side-hustle",
+    "date": "2026-04-23",
+    "snippet": "Building towards £100k revenue within 3 years (target: April 2029). Strategy covers offer, audience, how to reach them, and supporting content. Potential targets: businesses with no website — Ceylon Cafe, Woolstone Pub, Ace Autoworks.",
+    "file": "side-hustle/2026-04-23-side-hustle-goal.html",
+    "actions": []
+  },
+  {
+    "title": "Drone idea — filming & content",
+    "area": "side-hustle",
+    "date": "2026-04-23",
+    "snippet": "Film city — 2 mins long, 5–6 popular locations. Research via Pinterest and Google. Share on YouTube, link to website. Shoot sunsets, 4-second clips, low ambient/electronic music from Audio Jungle. Include face on clip.",
+    "file": "side-hustle/2026-04-23-drone-idea.html",
+    "actions": []
+  },
+  {
+    "title": "Drone business plan — 12-month beginner to pro",
+    "area": "side-hustle",
+    "date": "2026-04-23",
+    "snippet": "Full 12-month UK drone footage business plan. Covers registration (CAA Operator ID, A2 CofC), portfolio building, stock footage uploads (Shutterstock, Adobe Stock), first client work, and scaling to £500–£1,000/month by end of year.",
+    "file": "side-hustle/2026-04-23-drone-business-plan.html",
+    "actions": []
+  },
+  {
+    "title": "Ebanks Fire Protection — notes & ideas",
+    "area": "side-hustle",
+    "date": "2026-04-23",
+    "snippet": "Fire risk assessment business. Open questions: FIA third-party certification, BM Trada. Target clients: care homes, HMOs, offices, universities, council property, schools. Ideas: app, business budget, investment, business development.",
+    "file": "side-hustle/2026-04-23-ebanks-fire-protection.html",
+    "actions": []
+  },
+  {
+    "title": "Fire Protection — email scripts",
+    "area": "side-hustle",
+    "date": "2026-04-23",
+    "snippet": "Outreach email templates for eBanks Fire Protection. Includes general formal and conversational versions, plus sector-specific templates for schools, offices, universities, HMOs, industrial sites, and care homes/hospitality/retail.",
+    "file": "side-hustle/2026-04-23-fire-protection-email-scripts.html",
+    "actions": []
+  },
+  {
+    "title": "Courses purchased",
+    "area": "side-hustle",
+    "date": "2026-04-23",
+    "snippet": "BSL Level 1 & 2, Podcasting, YouTube Masterclass, Music Production, Graphic Design, Excel, Persuasion, English Grammar, Productivity Habits, Adobe Photoshop, Illustrator, XD, Time Management. Login details for Simpliv and CPD Portal saved.",
+    "file": "side-hustle/2026-04-23-courses-purchased.html",
+    "actions": []
+  },
+  {
+    "title": "Writing — story ideas",
+    "area": "personal",
+    "date": "2026-04-23",
+    "snippet": "Consolidated story concepts spanning 2015–2021: future brain hack, robot kids taxi, off-grid society, photographic memory character, code breakers, virus/fortune-cookie shorts. Plus Pixar story structure template and philosophical thoughts.",
+    "file": "personal/2026-04-23-writing-story-ideas.html",
+    "actions": []
+  },
+  {
+    "title": "Writing — poems & observations",
+    "area": "personal",
+    "date": "2026-04-23",
+    "snippet": "Poem for Kara, a poem fragment, an emotion series, song and rhyme ideas, a library observation, dream fragments, and writing resources including the R.L. Stine writing programme.",
+    "file": "personal/2026-04-23-writing-poems-observations.html",
+    "actions": []
+  },
+  {
+    "title": "Cars — wishlist & notes",
+    "area": "personal",
+    "date": "2026-04-25",
+    "snippet": "GR86 and Honda Stepwagon current vehicles. Wish list: Honda Integra Type R DC5, Eunos Roadster, Euro R. References saved for buying guides, DIY repairs, and forum threads. Motorbike gear and wrapping notes also included.",
+    "file": "personal/2026-04-25-cars-wishlist.html",
+    "actions": []
+  },
+  {
+    "title": "Home & house notes",
+    "area": "personal",
+    "date": "2026-04-25",
+    "snippet": "Consolidation of house projects and to-dos: garage, garden, bathroom, shed dimensions, water damage notes. DIY references saved. Sizes and specs noted. Mortgage and financial docs referenced.",
+    "file": "personal/2026-04-25-home-house-notes.html",
+    "actions": []
+  },
+  {
+    "title": "Future brain hack",
+    "area": "personal",
+    "date": "2018-11-23",
+    "snippet": "Story concept about future brain technology and its implications.",
+    "file": "personal/2018-11-23-future-brain-hack.html",
+    "actions": []
+  },
+  {
+    "title": "Photography — shot techniques",
+    "area": "content",
+    "date": "2024-10-13",
+    "snippet": "Shot techniques including panning, slow and fast shutter, camera angles for video, night time settings that worked (14mm, f1.8, ISO 1600), and drone shot types.",
+    "file": "content/2024-10-13-photography-shot-techniques.html",
+    "actions": []
+  },
+  {
+    "title": "Photography — locations",
+    "area": "content",
+    "date": "2024-10-13",
+    "snippet": "Stewartby video locations including forest, train, village hall, kiln, skate park, chimney, and turbine. Also gravel path near Cranfield and Morrison's car park MK.",
+    "file": "content/2024-10-13-photography-locations.html",
+    "actions": []
+  },
+  {
+    "title": "Friday photos needed",
+    "area": "content",
+    "date": "2024-01-24",
+    "snippet": "Shot list for a Friday shoot — portraits, group shots, and scene coverage including workshops, speakers in flow, arrivals, and downtime. Collaborator: sarah.dawkins@hotmail.co.uk.",
+    "file": "content/2024-01-24-friday-photos-needed.html",
+    "actions": []
+  },
+  {
+    "title": "Photography — reference links",
+    "area": "content",
+    "date": "2022-10-16",
+    "snippet": "Two reference articles saved: how to do colour grading for cinematic shots (Amateur Photographer), and 25 sitting poses for photos (Imaginated).",
+    "file": "content/2022-10-16-photography-references.html",
+    "actions": []
+  },
+  {
+    "title": "Content ideas — early notes",
+    "area": "content",
+    "date": "2022-08-31",
+    "snippet": "Early content direction thoughts: document book writing, Go Pro filming, and social media.",
+    "file": "content/2022-08-31-content-ideas-early.html",
+    "actions": []
+  },
+  {
+    "title": "Stewartby contacts",
+    "area": "personal",
+    "date": "2021-06-12",
+    "snippet": "Keith and Sarah, Ashley and Amy, Emmanuel and Lissa, Carol and Mark.",
+    "file": "personal/2021-06-12-stewartby-contacts.html",
+    "actions": []
+  }
+];
+
+    let allNotes = MANIFEST;
+    let currentFilter = 'all';
+    let currentSearch = '';
+    let deleteTargetFile = null;
+
+    // Safe localStorage wrappers — iOS Safari on file:// URLs can throw
+    function getDeletedNotes() {
+      try {
+        return JSON.parse(localStorage.getItem('deletedNotes') || '[]');
+      } catch (e) {
+        return [];
+      }
+    }
+
+    function saveDeletedNotes(deleted) {
+      try {
+        localStorage.setItem('deletedNotes', JSON.stringify(deleted));
+      } catch (e) {
+        // localStorage unavailable (e.g. iOS file:// restriction) — skip silently
+      }
+    }
+
+    function isNoteDeleted(file) {
+      return getDeletedNotes().includes(file);
+    }
+
+    function updateHeaderMeta() {
+      // Date dashboard file was last modified — use today as proxy (set at file-write time)
+      const today = new Date();
+      const dashboardDate = today.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+
+      // Date of the most recent note in the manifest
+      const deleted = getDeletedNotes();
+      const activenotes = MANIFEST.filter(n => !deleted.includes(n.file));
+      let latestNoteDate = null;
+      if (activenotes.length > 0) {
+        const sorted = [...activenotes].sort((a, b) => new Date(b.date) - new Date(a.date));
+        latestNoteDate = sorted[0].date;
+      }
+      const lastNoteFormatted = latestNoteDate
+        ? new Date(latestNoteDate + 'T12:00:00').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })
+        : 'No notes';
+
+      const el = document.getElementById('headerMeta');
+      if (el) {
+        el.textContent = 'Dashboard updated ' + dashboardDate + '  ·  Latest note ' + lastNoteFormatted;
+      }
+    }
+
+    function formatDate(dateStr) {
+      if (!dateStr) return 'No date';
+      const [year, month, day] = dateStr.split('-');
+      const d = new Date(year, parseInt(month) - 1, day);
+      return d.toLocaleDateString('en-GB', { year: 'numeric', month: 'short', day: 'numeric' });
+    }
+
+    function isOverdue(dateStr) {
+      if (!dateStr) return false;
+      const noteDate = new Date(dateStr);
+      return noteDate < new Date();
+    }
+
+    function renderDashboard() {
+      const deleted = getDeletedNotes();
+      const notes = allNotes.filter(n => !deleted.includes(n.file));
+
+      // Update stats
+      document.getElementById('totalNotesCount').textContent = notes.length;
+      document.getElementById('workNotesCount').textContent = notes.filter(n => n.area === 'work').length;
+      document.getElementById('personalNotesCount').textContent = notes.filter(n => n.area === 'personal').length;
+      document.getElementById('contentNotesCount').textContent = notes.filter(n => n.area === 'content').length;
+      document.getElementById('sideHustleNotesCount').textContent = notes.filter(n => n.area === 'side-hustle').length;
+
+      // Render actions
+      const allActions = [];
+      notes.forEach(note => {
+        if (note.actions && note.actions.length > 0) {
+          note.actions.forEach(action => {
+            allActions.push({
+              text: action.text,
+              date: action.date,
+              noteTitle: note.title
+            });
+          });
+        }
+      });
+
+      if (allActions.length > 0) {
+        document.getElementById('actionsPanel').style.display = 'block';
+        document.getElementById('noActionsPanel').style.display = 'none';
+        document.getElementById('actionsCount').textContent = allActions.length;
+
+        const actionsList = document.getElementById('actionsList');
+        actionsList.innerHTML = allActions
+          .sort((a, b) => {
+            if (!a.date && !b.date) return 0;
+            if (!a.date) return 1;
+            if (!b.date) return -1;
+            return new Date(a.date) - new Date(b.date);
+          })
+          .map(action => {
+            const overdue = action.date && isOverdue(action.date);
+            return `
+              <div class="action-row">
+                <div class="action-dot ${overdue ? 'overdue' : (action.date ? '' : 'no-date')}"></div>
+                <div style="flex: 1;">
+                  <div class="action-row-text">${action.text}</div>
+                  <div class="action-row-note">${action.noteTitle}</div>
+                </div>
+                <span class="action-row-date ${overdue ? 'overdue' : (action.date ? '' : 'no-date')}">
+                  ${action.date ? formatDate(action.date) : 'No date'}
+                </span>
+              </div>
+            `;
+          })
+          .join('');
+      } else {
+        document.getElementById('actionsPanel').style.display = 'none';
+        document.getElementById('noActionsPanel').style.display = 'block';
+      }
+
+      // Filter and search
+      let filtered = notes;
+      if (currentFilter !== 'all') {
+        filtered = filtered.filter(n => n.area === currentFilter);
+      }
+      if (currentSearch) {
+        const search = currentSearch.toLowerCase();
+        filtered = filtered.filter(n =>
+          n.title.toLowerCase().includes(search) ||
+          n.snippet.toLowerCase().includes(search)
+        );
+      }
+
+      // Group by area
+      const grouped = {};
+      filtered.forEach(note => {
+        if (!grouped[note.area]) grouped[note.area] = [];
+        grouped[note.area].push(note);
+      });
+
+      // Sort areas
+      const areaOrder = ['work', 'personal', 'content', 'side-hustle'];
+      const container = document.getElementById('notesContainer');
+      let html = '';
+
+      areaOrder.forEach(area => {
+        if (grouped[area] && grouped[area].length > 0) {
+          const areaLabel = { work: 'Work', personal: 'Personal', content: 'Content', 'side-hustle': 'Side Hustle' }[area];
+          const areaNotesCount = grouped[area].length;
+
+          html += `<div class="notes-section">
+            <div class="notes-section-header">
+              <h2>${areaLabel}</h2>
+              <span class="notes-section-count">${areaNotesCount} ${areaNotesCount === 1 ? 'note' : 'notes'}</span>
+            </div>
+            <div class="notes-grid">`;
+
+          grouped[area]
+            .sort((a, b) => new Date(b.date) - new Date(a.date))
+            .forEach(note => {
+              const actionCount = note.actions ? note.actions.length : 0;
+              html += `
+                <div class="note-card" onclick="openNote('${note.file}')">
+                  <div class="note-card-header">
+                    <div class="note-card-title">${note.title}</div>
+                    <button class="note-card-delete-btn" onclick="deleteNote(event, '${note.file}')">✕</button>
+                  </div>
+                  <div class="note-card-meta">
+                    <div class="note-card-date">${formatDate(note.date)}</div>
+                    <span class="note-card-tag ${area}">${areaLabel}</span>
+                  </div>
+                  <div class="note-card-snippet">${note.snippet}</div>
+                  ${actionCount > 0 ? `<div class="note-card-actions">${actionCount} action${actionCount === 1 ? '' : 's'}</div>` : ''}
+                </div>
+              `;
+            });
+
+          html += `</div></div>`;
+        }
+      });
+
+      if (filtered.length === 0) {
+        html = '<div class="empty-state"><div class="empty-state-icon">📭</div><p>No notes found. Try adjusting your filters or search.</p></div>';
+      }
+
+      container.innerHTML = html;
+    }
+
+    function openNote(file) {
+      window.location.href = file;
+    }
+
+    function deleteNote(event, file) {
+      event.stopPropagation();
+      deleteTargetFile = file;
+      document.getElementById('deleteModal').classList.add('show');
+    }
+
+    function confirmDelete() {
+      if (deleteTargetFile) {
+        const deleted = getDeletedNotes();
+        if (!deleted.includes(deleteTargetFile)) {
+          deleted.push(deleteTargetFile);
+          saveDeletedNotes(deleted);
+        }
+        deleteTargetFile = null;
+        document.getElementById('deleteModal').classList.remove('show');
+        renderDashboard();
+      }
+    }
+
+    function cancelDelete() {
+      deleteTargetFile = null;
+      document.getElementById('deleteModal').classList.remove('show');
+    }
+
+    // Wait for DOM to be fully ready, then initialize
+    function initializeDashboard() {
+      try {
+        // Defensive checks
+        if (typeof MANIFEST === 'undefined' || !Array.isArray(MANIFEST)) {
+          console.error('MANIFEST data is not defined or not an array');
+          return;
+        }
+
+        if (MANIFEST.length === 0) {
+          console.warn('MANIFEST is empty');
+        } else {
+          console.log('MANIFEST loaded successfully with ' + MANIFEST.length + ' notes');
+        }
+
+        allNotes = MANIFEST;
+
+        // Set up event listeners
+        const searchInput = document.getElementById('searchInput');
+        if (searchInput) {
+          searchInput.addEventListener('input', (e) => {
+            currentSearch = e.target.value;
+            renderDashboard();
+          });
+        }
+
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            currentFilter = btn.dataset.filter;
+            renderDashboard();
+          });
+        });
+
+        const confirmDeleteBtn = document.getElementById('confirmDelete');
+        const cancelDeleteBtn = document.getElementById('cancelDelete');
+        const deleteModal = document.getElementById('deleteModal');
+
+        if (confirmDeleteBtn) confirmDeleteBtn.addEventListener('click', confirmDelete);
+        if (cancelDeleteBtn) cancelDeleteBtn.addEventListener('click', cancelDelete);
+        if (deleteModal) {
+          deleteModal.addEventListener('click', (e) => {
+            if (e.target === deleteModal) {
+              cancelDelete();
+            }
+          });
+        }
+
+        // Initial render
+        console.log('Calling renderDashboard...');
+        renderDashboard();
+        updateHeaderMeta();
+        console.log('Dashboard rendered');
+      } catch (e) {
+        console.error('Error initializing dashboard:', e.message);
+      }
+    }
+
+    // Initialize immediately (script is at end of body)
+    initializeDashboard();
+
+    // Fallback: if dashboard is still showing 0 notes after a short delay,
+    // force a re-render (handles timing issues on some browsers)
+    setTimeout(() => {
+      const totalCount = parseInt(document.getElementById('totalNotesCount')?.textContent || '0');
+      if (totalCount === 0 && MANIFEST && MANIFEST.length > 0) {
+        console.log('Dashboard empty despite having data. Force re-rendering...');
+        allNotes = MANIFEST;
+        renderDashboard();
+        updateHeaderMeta();
+      }
+    }, 500);
+  </script>
+</body>
+</html>

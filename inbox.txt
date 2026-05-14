@@ -1,0 +1,388 @@
+NOTES INBOX
+===========
+Drop any note in here from any device. Claude will process this when you ask.
+
+HOW TO ADD A NOTE:
+------------------
+Start each note with a line like this:
+
+---
+DATE: 10 May 2026
+AREA: work
+NOTE:
+[your note here — typed or pasted transcript, as messy as you like]
+
+---
+DATE: 10 May 2026
+AREA: personal
+NOTE:
+[next note]
+
+Areas: work / personal / content / side-hustle
+If you're not sure which area, just write your best guess — Claude will check before filing.
+
+When you're ready to process, just tell Claude: "process my inbox"
+Claude will clean everything up, create the HTML notes, flag actions, and clear this file.
+===========
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Calc is wrong, check inflation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100
+
+
+
+
+
+
+
+
+A
+B
+
+
+
+
+
+
+cost
+            	700,000
+            	650,000
+
+
+
+
+
+
+cost
+            	500,000
+            	500,000
+
+
+
+
+
+
+cost
+            	450,000
+            	450,000
+
+
+
+
+
+
+cost
+            	300,000
+            	200,000
+
+
+
+
+
+
+cost
+            	150,000
+
+
+
+
+
+
+
+
+cost
+
+
+
+
+
+
+
+
+
+
+cost
+
+
+
+
+
+
+
+
+
+
+total
+       	2,100,000
+       	1,800,000
+
+
+
+
+
+
+inf
+            	105,000
+            	180,000
+
+
+
+
+
+
+
+
+       	2,205,000
+       	1,980,000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+is there a central cost communication channel? 
+
+
+
+
+
+
+
+
+are cost reductions tracked?
+
+
+
+
+
+
+
+
+if they are the experts, why are we doing this?
+
+
+
+
+
+
+
+
+don’t comment on skipping certain parts, just omit them from the deck, eg formula slides
+
+
+
+
+
+
+
+
+examples for market indices are hard to present / too complicated
+
+
+
+
+
+
+
+
+be decisive not suggestive. "should we talk about this?"
+
+
+
+
+
+
+
+
+explain what other people do rather than asking what do they do, as they already know this
+
+
+
+
+
+
+
+
+own the presentation, sometimes feels as if you're presenting someone else's presentation
+
+
+
+
+
+
+
+
+share break out in excel as heavy calculation based on 2nd day
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+breakouts more
+
+
+
+
+
+
+
+
+2nd day - theory - inventory level
+
+
+
+
+
+
+
+
+diff disciplines
+
+
+
+
+
+
+
+
+
+
+sharing of best practises
+
+
+
+
+
+
+
+
+movement round the room was good
+
+
+
+
+
+
+
+
+next level of course?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+use eoq in supplier discussions/good seeing concepts
+
+
+
+
+
+
+
+
+tco was useful
+
+
+
+
+
+
+
+
+
+
+more work now folllwing the session?
+
