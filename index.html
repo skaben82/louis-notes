@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Louis's Notes</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f4f6fb; color: #1a1a1a; min-height: 100vh; }
+
+    .site-header { background: #3b5bdb; color: #fff; padding: 20px 24px 16px; }
+    .site-header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.01em; }
+    .site-header p { font-size: 0.82rem; opacity: 0.75; margin-top: 2px; }
+
+    .controls { background: #fff; border-bottom: 1px solid #e0e4f0; padding: 12px 24px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; position: sticky; top: 0; z-index: 10; }
+    .search-wrap { position: relative; flex: 1; min-width: 180px; }
+    .search-wrap input { width: 100%; padding: 8px 12px 8px 34px; border: 1px solid #d0d5e8; border-radius: 8px; font-size: 0.9rem; background: #f8f9ff; outline: none; }
+    .search-wrap input:focus { border-color: #3b5bdb; background: #fff; }
+    .search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: #aaa; font-size: 0.9rem; }
+    .filters { display: flex; gap: 6px; flex-wrap: wrap; }
+    .filter-btn { padding: 6px 14px; border-radius: 20px; border: 1px solid #d0d5e8; background: #fff; font-size: 0.78rem; font-weight: 600; cursor: pointer; text-transform: uppercase; letter-spacing: 0.04em; color: #555; transition: all 0.15s; }
+    .filter-btn:hover { background: #eef0fa; }
+    .filter-btn.active[data-area="all"] { background: #3b5bdb; color: #fff; border-color: #3b5bdb; }
+    .filter-btn.active[data-area="work"] { background: #3b5bdb; color: #fff; border-color: #3b5bdb; }
+    .filter-btn.active[data-area="personal"] { background: #2e7d32; color: #fff; border-color: #2e7d32; }
+    .filter-btn.active[data-area="content"] { background: #e65100; color: #fff; border-color: #e65100; }
+    .filter-btn.active[data-area="side-hustle"] { background: #c62828; color: #fff; border-color: #c62828; }
+
+    .count-bar { padding: 8px 24px; font-size: 0.8rem; color: #888; }
+
+    .actions-panel { margin: 16px 24px 0; background: #fff; border-radius: 10px; border: 1px solid #e0e4f0; overflow: hidden; }
+    .actions-panel-header { background: #f8f9ff; border-bottom: 1px solid #e0e4f0; padding: 12px 18px; display: flex; align-items: center; gap: 8px; cursor: pointer; user-select: none; }
+    .actions-panel-header h2 { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; color: #3b5bdb; font-weight: 700; }
+    .actions-badge { background: #3b5bdb; color: #fff; border-radius: 20px; font-size: 0.7rem; padding: 1px 8px; font-weight: 700; }
+    .actions-toggle { margin-left: auto; color: #aaa; font-size: 0.8rem; }
+    .actions-list { display: none; }
+    .actions-list.open { display: block; }
+    .action-row { display: flex; align-items: flex-start; justify-content: space-between; padding: 10px 18px; border-bottom: 1px solid #f0f2fa; gap: 12px; }
+    .action-row:last-child { border-bottom: none; }
+    .action-text { font-size: 0.88rem; flex: 1; }
+    .action-source { font-size: 0.75rem; color: #999; margin-top: 2px; }
+    .action-date { font-size: 0.75rem; padding: 2px 10px; border-radius: 20px; white-space: nowrap; color: #fff; background: #3b5bdb; flex-shrink: 0; }
+    .action-date.overdue { background: #c62828; }
+    .action-date.no-date { background: #aaa; }
+    .no-actions { padding: 14px 18px; font-size: 0.85rem; color: #aaa; }
+
+    .notes-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; padding: 16px 24px 32px; }
+    .note-card { background: #fff; border-radius: 10px; border: 1px solid #e0e4f0; padding: 16px; text-decoration: none; color: inherit; display: flex; flex-direction: column; gap: 8px; transition: box-shadow 0.15s, border-color 0.15s; }
+    .note-card:hover { box-shadow: 0 4px 16px rgba(59,91,219,0.10); border-color: #b0bef8; }
+    .card-title { font-size: 0.95rem; font-weight: 600; line-height: 1.35; color: #1a1a1a; }
+    .card-meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .card-date { font-size: 0.75rem; color: #999; }
+    .card-tag { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; padding: 2px 8px; border-radius: 20px; }
+    .card-tag.work { background: #e8eeff; color: #3b5bdb; }
+    .card-tag.personal { background: #e8f5e9; color: #2e7d32; }
+    .card-tag.content { background: #fff3e0; color: #e65100; }
+    .card-tag.side-hustle { background: #fce4ec; color: #c62828; }
+    .card-snippet { font-size: 0.82rem; color: #666; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+    .card-actions-flag { margin-top: 2px; font-size: 0.72rem; color: #3b5bdb; font-weight: 600; }
+    .no-results { padding: 40px 24px; text-align: center; color: #aaa; font-size: 0.9rem; grid-column: 1/-1; }
+
+    @media (max-width: 600px) {
+      .notes-grid { grid-template-columns: 1fr; padding: 12px 16px 24px; }
+      .controls { padding: 10px 16px; }
+      .actions-panel { margin: 12px 16px 0; }
+      .count-bar { padding: 6px 16px; }
+      .site-header { padding: 16px 16px 12px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="site-header">
+  <h1>Louis's Notes</h1>
+  <p>Personal notes dashboard — all areas</p>
+</div>
+
+<div class="controls">
+  <div class="search-wrap">
+    <span class="search-icon">🔍</span>
+    <input type="text" id="searchInput" placeholder="Search notes…" oninput="renderNotes()">
+  </div>
+  <div class="filters">
+    <button class="filter-btn active" data-area="all" onclick="setFilter('all')">All</button>
+    <button class="filter-btn" data-area="work" onclick="setFilter('work')">Work</button>
+    <button class="filter-btn" data-area="personal" onclick="setFilter('personal')">Personal</button>
+    <button class="filter-btn" data-area="content" onclick="setFilter('content')">Content</button>
+    <button class="filter-btn" data-area="side-hustle" onclick="setFilter('side-hustle')">Side Hustle</button>
+  </div>
+</div>
+
+<div class="count-bar" id="countBar"></div>
+
+<div class="actions-panel">
+  <div class="actions-panel-header" onclick="toggleActions()">
+    <h2>Outstanding Actions</h2>
+    <span class="actions-badge" id="actionsBadge">0</span>
+    <span class="actions-toggle" id="actionsToggle">▼</span>
+  </div>
+  <div class="actions-list open" id="actionsList"></div>
+</div>
+
+<div class="notes-grid" id="notesGrid"></div>
+
+<script>
+  var NOTES = [];
+  var currentFilter = 'all';
+  var actionsOpen = true;
+
+  fetch('notes-manifest.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      NOTES = data;
+      renderActions();
+      renderNotes();
+    })
+    .catch(function() {
+      document.getElementById('notesGrid').innerHTML = '<p class="no-results">Could not load notes manifest. Make sure notes-manifest.json is in the same folder as this file.</p>';
+    });
+
+  function setFilter(area) {
+    currentFilter = area;
+    document.querySelectorAll('.filter-btn').forEach(function(b) {
+      b.classList.toggle('active', b.dataset.area === area);
+    });
+    renderNotes();
+  }
+
+  function renderNotes() {
+    var q = document.getElementById('searchInput').value.toLowerCase().trim();
+    var grid = document.getElementById('notesGrid');
+
+    var filtered = NOTES.filter(function(n) {
+      var areaMatch = currentFilter === 'all' || n.area === currentFilter;
+      var searchMatch = !q ||
+        n.title.toLowerCase().includes(q) ||
+        (n.snippet || '').toLowerCase().includes(q) ||
+        n.area.toLowerCase().includes(q);
+      return areaMatch && searchMatch;
+    });
+
+    filtered.sort(function(a, b) { return b.date.localeCompare(a.date); });
+
+    document.getElementById('countBar').textContent =
+      filtered.length === 1 ? '1 note' : filtered.length + ' notes';
+
+    if (filtered.length === 0) {
+      grid.innerHTML = '<p class="no-results">No notes match your search.</p>';
+      return;
+    }
+
+    grid.innerHTML = filtered.map(function(n) {
+      var hasActions = n.actions && n.actions.length > 0;
+      var dateDisplay = formatDate(n.date);
+      var areaLabel = n.area === 'side-hustle' ? 'Side Hustle' :
+        n.area.charAt(0).toUpperCase() + n.area.slice(1);
+      return '<a class="note-card" href="' + n.file + '">' +
+        '<div class="card-title">' + esc(n.title) + '</div>' +
+        '<div class="card-meta">' +
+          '<span class="card-date">' + dateDisplay + '</span>' +
+          '<span class="card-tag ' + n.area + '">' + areaLabel + '</span>' +
+        '</div>' +
+        '<div class="card-snippet">' + esc(n.snippet || '') + '</div>' +
+        (hasActions ? '<div class="card-actions-flag">&#9889; ' + n.actions.length + ' action' + (n.actions.length > 1 ? 's' : '') + '</div>' : '') +
+        '</a>';
+    }).join('');
+  }
+
+  function renderActions() {
+    var today = new Date().toISOString().split('T')[0];
+    var allActions = [];
+    NOTES.forEach(function(n) {
+      (n.actions || []).forEach(function(a) {
+        allActions.push({ text: a.text, date: a.date, source: n.title, file: n.file });
+      });
+    });
+
+    document.getElementById('actionsBadge').textContent = allActions.length;
+
+    var list = document.getElementById('actionsList');
+    if (allActions.length === 0) {
+      list.innerHTML = '<div class="no-actions">No outstanding actions.</div>';
+      return;
+    }
+
+    var withDate = allActions.filter(function(a) { return a.date; });
+    var noDate = allActions.filter(function(a) { return !a.date; });
+    withDate.sort(function(a, b) { return a.date.localeCompare(b.date); });
+    var sorted = withDate.concat(noDate);
+
+    list.innerHTML = sorted.map(function(a) {
+      var dateClass = 'no-date';
+      var dateLabel = 'No date';
+      if (a.date) {
+        dateClass = a.date < today ? 'overdue' : '';
+        dateLabel = formatDate(a.date);
+      }
+      return '<div class="action-row">' +
+        '<div>' +
+          '<div class="action-text">' + esc(a.text) + '</div>' +
+          '<div class="action-source">From: <a href="' + a.file + '" style="color:#3b5bdb;">' + esc(a.source) + '</a></div>' +
+        '</div>' +
+        '<span class="action-date ' + dateClass + '">' + dateLabel + '</span>' +
+        '</div>';
+    }).join('');
+  }
+
+  function toggleActions() {
+    actionsOpen = !actionsOpen;
+    document.getElementById('actionsList').classList.toggle('open', actionsOpen);
+    document.getElementById('actionsToggle').textContent = actionsOpen ? '▲' : '▼';
+  }
+
+  function formatDate(iso) {
+    if (!iso) return '';
+    var parts = iso.split('-');
+    var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    return parseInt(parts[2]) + ' ' + months[parseInt(parts[1])-1] + ' ' + parts[0];
+  }
+
+  function esc(str) {
+    return (str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+</script>
+</body>
+</html>

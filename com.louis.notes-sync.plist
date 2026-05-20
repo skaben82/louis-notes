@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.louis.notes-sync</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/louisebanks/Library/Mobile Documents/com~apple~CloudDocs/notes/sync-to-github.sh</string>
+  </array>
+
+  <!-- Watch the notes folder — triggers on any file change -->
+  <key>WatchPaths</key>
+  <array>
+    <string>/Users/louisebanks/Library/Mobile Documents/com~apple~CloudDocs/notes</string>
+  </array>
+
+  <!-- Also run once at login to catch any overnight changes -->
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/louisebanks/Library/Logs/louis-notes-sync.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/Users/louisebanks/Library/Logs/louis-notes-sync.log</string>
+</dict>
+</plist>

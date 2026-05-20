@@ -1,0 +1,825 @@
+[
+  {
+    "title": "GKN notes",
+    "area": "work",
+    "date": "2026-05-13",
+    "snippet": "Cost calculation data from GKN session with scenarios A and B, questions about cost communications and tracking, presentation feedback notes, and session observations.",
+    "file": "work/2026-05-13-gkn-notes.html",
+    "actions": []
+  },
+  {
+    "title": "GKN Meeting Notes",
+    "area": "work",
+    "date": "2026-05-13",
+    "snippet": "Meeting notes from GKN session. Key items to follow up on: Eric to send the indirect cost purchasing policy, switch presenters, and ask GKN finance to provide GKN-specific examples.",
+    "file": "work/2026-05-13-gkn-meeting-notes.html",
+    "actions": [
+      {"text": "Eric to send indirect cost purchasing policy", "date": null},
+      {"text": "Switch presenters", "date": null},
+      {"text": "Ask GKN finance to provide GKN examples", "date": null},
+      {"text": "Decide: use Excel for breakouts?", "date": null},
+      {"text": "Change the risk number on the breakout exercise cost estimation activity — 150 vs 220", "date": null},
+      {"text": "Too many words per slide on cost control / monitoring etc. — replace with pictures", "date": null}
+    ]
+  },
+  {
+    "title": "Tekmar — cash model plan",
+    "area": "work",
+    "date": "2026-05-06",
+    "snippet": "Build a cash model for Tekmar. Ramp to 250 days. Remodel at 3 years.",
+    "file": "work/2026-05-06-tekmar-cash-model-plan.html",
+    "actions": []
+  },
+  {
+    "title": "3T Notes",
+    "area": "work",
+    "date": "2024-09-03",
+    "snippet": "2023 accounts show a loss, not a profit as per management accounts. 2022: £700k loss, £350k WIP write-off, plus provision to pay £80k. Nat to meet with auditors. Now in HMRC court.",
+    "file": "work/2024-09-03-3t-notes.html",
+    "actions": []
+  },
+  {
+    "title": "3t — audit notes",
+    "area": "work",
+    "date": "2026-04-23",
+    "snippet": "Notes from the 3t audit. Large revenue samples reviewed. Key findings: no delivery notes since Inna started, one-off incorrect posting with duplicate invoice amounts, costs not accrued by business policy.",
+    "file": "work/2026-04-23-3t-audit-notes.html",
+    "actions": []
+  },
+  {
+    "title": "3t — revenue recognition",
+    "area": "work",
+    "date": "2026-04-23",
+    "snippet": "Revenue recognition example for 3t. Original content was stored as an embedded image in Notion and cannot be recovered as text.",
+    "file": "work/2026-04-23-3t-revenue-recognition.html",
+    "actions": []
+  },
+  {
+    "title": "Scope — OODA loop project",
+    "area": "work",
+    "date": "2026-04-23",
+    "snippet": "Scoping notes for a project using the OODA loop (Observe, Orient, Decide, Act) as a framework for coaching material development.",
+    "file": "work/2026-04-23-scope-ooda-loop-project.html",
+    "actions": []
+  },
+  {
+    "title": "Training skills — cross-function notes",
+    "area": "work",
+    "date": "2026-04-23",
+    "snippet": "Notes from a cross-function session on training skills frameworks. Quality has 50 skills defined in Workday with 20 generic job profiles. ME covers 30 roles for 30,000 people.",
+    "file": "work/2026-04-23-training-skills-cross-function.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 13 April 2023",
+    "area": "work",
+    "date": "2023-04-13",
+    "snippet": "The Merits of Budgeting — work notes from April 2023.",
+    "file": "work/2023-04-13-note-13-april-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 13 April 2021",
+    "area": "work",
+    "date": "2021-04-13",
+    "snippet": "Mock tribunal 2016 CIPD April 2016.",
+    "file": "work/2021-04-13-note-13-april-2021.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 24 January 2015",
+    "area": "work",
+    "date": "2015-01-24",
+    "snippet": "Plastering course.",
+    "file": "work/2015-01-24-note-24-january-2015.html",
+    "actions": []
+  },
+  {
+    "title": "Side hustle — goal & strategy",
+    "area": "side-hustle",
+    "date": "2026-04-23",
+    "snippet": "Building towards £100k revenue within 3 years (target: April 2029). Strategy covers offer, audience, how to reach them, and supporting content.",
+    "file": "side-hustle/2026-04-23-side-hustle-goal.html",
+    "actions": []
+  },
+  {
+    "title": "Fitness Grocery List",
+    "area": "side-hustle",
+    "date": "2026-01-02",
+    "snippet": "Grocery list for fitness meal prep: chicken breast, lean beef, salmon, tuna, eggs, Greek yogurt, oats, sweet potatoes, spinach, berries, almonds, peanut butter.",
+    "file": "side-hustle/2026-01-02-fitness-grocery-list.html",
+    "actions": []
+  },
+  {
+    "title": "Drone idea — filming & content",
+    "area": "side-hustle",
+    "date": "2026-04-23",
+    "snippet": "Film city — 2 mins long, 5–6 popular locations. Research via Pinterest and Google. Share on YouTube, link to website. Shoot sunsets, 4-second clips, low ambient/electronic music.",
+    "file": "side-hustle/2026-04-23-drone-idea.html",
+    "actions": []
+  },
+  {
+    "title": "Drone business plan — 12-month beginner to pro",
+    "area": "side-hustle",
+    "date": "2026-04-23",
+    "snippet": "Full 12-month UK drone footage business plan. Covers CAA registration, portfolio building, stock footage uploads, first client work, and scaling to £500–£1,000/month by end of year.",
+    "file": "side-hustle/2026-04-23-drone-business-plan.html",
+    "actions": []
+  },
+  {
+    "title": "Ebanks Fire Protection — notes & ideas",
+    "area": "side-hustle",
+    "date": "2026-04-23",
+    "snippet": "Fire risk assessment business. Target clients: care homes, HMOs, offices, universities, council property, schools. Ideas: app, business budget, investment, business development.",
+    "file": "side-hustle/2026-04-23-ebanks-fire-protection.html",
+    "actions": []
+  },
+  {
+    "title": "Fire Protection — email scripts",
+    "area": "side-hustle",
+    "date": "2026-04-23",
+    "snippet": "Outreach email templates for eBanks Fire Protection. Includes general formal and conversational versions, plus sector-specific templates for schools, offices, universities, HMOs, and care homes.",
+    "file": "side-hustle/2026-04-23-fire-protection-email-scripts.html",
+    "actions": []
+  },
+  {
+    "title": "Courses purchased",
+    "area": "side-hustle",
+    "date": "2026-04-23",
+    "snippet": "BSL Level 1 & 2, Podcasting, YouTube Masterclass, Music Production, Graphic Design, Excel, Persuasion, English Grammar, Adobe Photoshop, Illustrator. Login details for Simpliv and CPD Portal saved.",
+    "file": "side-hustle/2026-04-23-courses-purchased.html",
+    "actions": []
+  },
+  {
+    "title": "12 New Things for 2021",
+    "area": "side-hustle",
+    "date": "2023-06-19",
+    "snippet": "Goals list: write a story, write a children's book, learn to code, juggle, play drums, take more photos, remix songs, learn superbike riding. Some items completed.",
+    "file": "side-hustle/2023-06-19-12-new-things-2021.html",
+    "actions": []
+  },
+  {
+    "title": "Lidl Meal Prep — £25 Weekly for 17 Meals",
+    "area": "content",
+    "date": "2026-03-17",
+    "snippet": "Detailed meal prep plan using £25 weekly Lidl shop. Covers overnight oats (4 portions), berry smoothies, and other meals with full ingredients and method.",
+    "file": "content/2026-03-17-lidl-meal-prep.html",
+    "actions": []
+  },
+  {
+    "title": "Photography — shot techniques",
+    "area": "content",
+    "date": "2024-10-13",
+    "snippet": "Shot techniques including panning, slow and fast shutter, camera angles for video, night time settings that worked (14mm, f1.8, ISO 1600), and drone shot types.",
+    "file": "content/2024-10-13-photography-shot-techniques.html",
+    "actions": []
+  },
+  {
+    "title": "Night Time Shots",
+    "area": "content",
+    "date": "2024-10-13",
+    "snippet": "Camera settings for night photography / timelapse: 14mm, 10 seconds, f1.8, ISO 1600 — 12 second interval with 2 second break between exposures.",
+    "file": "content/2024-10-13-night-time-shots.html",
+    "actions": []
+  },
+  {
+    "title": "Stewartby Video Locations",
+    "area": "content",
+    "date": "2024-10-13",
+    "snippet": "Video locations in Stewartby: forest, train, village hall, kiln, skate park, Covanta chimney, Hanson Reach, and more.",
+    "file": "content/2024-10-13-stewartby-video-locations.html",
+    "actions": []
+  },
+  {
+    "title": "Photography — locations",
+    "area": "content",
+    "date": "2024-10-13",
+    "snippet": "Stewartby video locations including forest, train, village hall, kiln, skate park, chimney, and turbine. Also gravel path near Cranfield and Morrison's car park MK.",
+    "file": "content/2024-10-13-photography-locations.html",
+    "actions": []
+  },
+  {
+    "title": "Friday photos needed",
+    "area": "content",
+    "date": "2024-01-24",
+    "snippet": "Shot list for a Friday shoot — portraits, group shots, and scene coverage including workshops, speakers in flow, arrivals, and downtime.",
+    "file": "content/2024-01-24-friday-photos-needed.html",
+    "actions": []
+  },
+  {
+    "title": "Modified cars — book idea",
+    "area": "content",
+    "date": "2023-07-14",
+    "snippet": "Book about modified cars. Covering history from different countries (Germany, Japan, UK, USA), famous tuners, magazines, common car upgrades, media, YouTube, films.",
+    "file": "content/2023-07-14-note-14-july-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Stewartby T-shirts idea",
+    "area": "content",
+    "date": "2023-08-28",
+    "snippet": "Range of Stewartby T-shirts with pictures of the area.",
+    "file": "content/2023-08-28-note-28-august-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Writing blog — location-based content",
+    "area": "content",
+    "date": "2022-10-30",
+    "snippet": "Writing blog concept: research books, go to locations to blog about people, characters, plots. Use locations as writing prompts. Video everything.",
+    "file": "content/2022-10-30-note-30-october-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Photography — reference links",
+    "area": "content",
+    "date": "2022-10-16",
+    "snippet": "Two reference articles saved: colour grading for cinematic shots (Amateur Photographer) and 25 sitting poses for photos (Imaginated).",
+    "file": "content/2022-10-16-photography-references.html",
+    "actions": []
+  },
+  {
+    "title": "Content ideas — early notes",
+    "area": "content",
+    "date": "2022-08-31",
+    "snippet": "Early content direction thoughts: document book writing, Go Pro filming, and social media.",
+    "file": "content/2022-08-31-content-ideas-early.html",
+    "actions": []
+  },
+  {
+    "title": "To-Do List",
+    "area": "personal",
+    "date": "2025-10-04",
+    "snippet": "Social media plan (outstanding). Completed: car spray, library book, expenses, drone pick up, GR insurance.",
+    "file": "personal/2025-10-04-to-do-list.html",
+    "actions": []
+  },
+  {
+    "title": "Family Places to Visit",
+    "area": "personal",
+    "date": "2025-01-14",
+    "snippet": "Giant's Causeway, Highlands, Lapland, Disneyland Paris, Kenya, Jamaica.",
+    "file": "personal/2025-01-14-family-places-to-visit.html",
+    "actions": []
+  },
+  {
+    "title": "Louis Birthday Ideas",
+    "area": "personal",
+    "date": "2025-01-14",
+    "snippet": "8BitDo Ultimate Bluetooth Controller, Pi Monitor from Pimoroni, Montego's patties.",
+    "file": "personal/2025-01-14-louis-birthday-ideas.html",
+    "actions": []
+  },
+  {
+    "title": "Shoe Sizes",
+    "area": "personal",
+    "date": "2025-01-28",
+    "snippet": "Alfred — Size 2. Isabelle — Size 9.",
+    "file": "personal/2025-01-28-shoe-sizes.html",
+    "actions": []
+  },
+  {
+    "title": "BBC Sounds",
+    "area": "personal",
+    "date": "2026-03-12",
+    "snippet": "Saved BBC Sounds link: bbc.co.uk/sounds/play/m002s1hr",
+    "file": "personal/2026-03-12-bbc-sounds-link.html",
+    "actions": []
+  },
+  {
+    "title": "Health — Blood Test",
+    "area": "personal",
+    "date": "2024-04-22",
+    "snippet": "Spoke to Dr Jaiswal. White blood cell / neutrophils count low — score 1.13, should be 2+. No fever, infections, lumps or night sweats. Book follow-up blood test.",
+    "file": "personal/2024-04-22-health-blood-test.html",
+    "actions": []
+  },
+  {
+    "title": "Backup Code",
+    "area": "personal",
+    "date": "2024-10-17",
+    "snippet": "Backup / recovery code: CL5S W4CN A4DP 42DD XRKT QQ6M 4ZBF",
+    "file": "personal/2024-10-17-backup-code.html",
+    "actions": []
+  },
+  {
+    "title": "Quack — Recovery Code",
+    "area": "personal",
+    "date": "2024-10-18",
+    "snippet": "App recovery code (base64 encoded) for Quack app.",
+    "file": "personal/2024-10-18-quack-recovery-code.html",
+    "actions": []
+  },
+  {
+    "title": "Motorbike Gear",
+    "area": "personal",
+    "date": "2024-10-16",
+    "snippet": "Note was empty in Google Keep — no content captured.",
+    "file": "personal/2024-10-16-motorbike-gear.html",
+    "actions": []
+  },
+  {
+    "title": "Interview Answers",
+    "area": "personal",
+    "date": "2024-08-12",
+    "snippet": "If you were an animal: a swan — serene on top, paddling furiously underneath. Storytelling framework: Therefore / But / Beats.",
+    "file": "personal/2024-08-12-interview-answers.html",
+    "actions": []
+  },
+  {
+    "title": "Drill Bit Size",
+    "area": "personal",
+    "date": "2024-09-06",
+    "snippet": "5mm brick bit.",
+    "file": "personal/2024-09-06-drill-bit-size.html",
+    "actions": []
+  },
+  {
+    "title": "Cereal Mix Ingredients",
+    "area": "personal",
+    "date": "2024-08-05",
+    "snippet": "Bran flakes, raisins, sultanas, coconut, banana, hazelnuts.",
+    "file": "personal/2024-08-05-cereal-mix-ingredients.html",
+    "actions": []
+  },
+  {
+    "title": "GOG Game Code — Call of Juarez",
+    "area": "personal",
+    "date": "2024-07-21",
+    "snippet": "Amazon Prime Gaming code for Call of Juarez: Bound in Blood. Redeem via GOG Galaxy.",
+    "file": "personal/2024-07-21-gog-game-code.html",
+    "actions": []
+  },
+  {
+    "title": "Wheel specs — 18x8 ET40",
+    "area": "personal",
+    "date": "2023-10-29",
+    "snippet": "18 x 8, ET40, Team Dynamics Pro Race 1.2 on 225/40/18 tyre.",
+    "file": "personal/2023-10-29-note-29-october-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Writing — poem fragment",
+    "area": "personal",
+    "date": "2023-09-09",
+    "snippet": "I just want you to hold my hand / We can walk down the street together / Doesn't matter what time of day / I'm ready to do it whenever.",
+    "file": "personal/2023-09-09-note-9-september-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 28 July 2023",
+    "area": "personal",
+    "date": "2023-07-28",
+    "snippet": "CAS (crankshaft angle sensor) is the one in the front of the engine.",
+    "file": "personal/2023-07-28-note-28-july-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 24 June 2023",
+    "area": "personal",
+    "date": "2023-06-24",
+    "snippet": "Get by — brief personal note.",
+    "file": "personal/2023-06-24-note-24-june-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 14 June 2023",
+    "area": "personal",
+    "date": "2023-06-14",
+    "snippet": "Go abroad? — brief note.",
+    "file": "personal/2023-06-14-note-14-june-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 24 May 2023",
+    "area": "personal",
+    "date": "2023-05-24",
+    "snippet": "Film idea based on British politics, gang-based film. Use Brexit attitudes to shape characters.",
+    "file": "personal/2023-05-24-note-24-may-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 11 April 2023",
+    "area": "personal",
+    "date": "2023-04-11",
+    "snippet": "Bottle cap checkers.",
+    "file": "personal/2023-04-11-note-11-april-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 10 April 2023",
+    "area": "personal",
+    "date": "2023-04-10",
+    "snippet": "Libgen link saved — book search.",
+    "file": "personal/2023-04-10-note-10-april-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 13 March 2023",
+    "area": "personal",
+    "date": "2023-03-13",
+    "snippet": "Pay mortgage early calculation.",
+    "file": "personal/2023-03-13-note-13-march-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 1 February 2023",
+    "area": "personal",
+    "date": "2023-02-01",
+    "snippet": "Saved link — colour reference for Rota GRI wheels.",
+    "file": "personal/2023-02-01-note-1-february-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 26 January 2023",
+    "area": "personal",
+    "date": "2023-01-26",
+    "snippet": "Charge of the Light Brigade.",
+    "file": "personal/2023-01-26-note-26-january-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 26 December 2022",
+    "area": "personal",
+    "date": "2022-12-26",
+    "snippet": "Marching tortoise.",
+    "file": "personal/2022-12-26-note-26-december-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 10 December 2022",
+    "area": "personal",
+    "date": "2022-12-10",
+    "snippet": "No Biggie.",
+    "file": "personal/2022-12-10-note-10-december-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 28 November 2022",
+    "area": "personal",
+    "date": "2022-11-28",
+    "snippet": "Black tones.",
+    "file": "personal/2022-11-28-note-28-november-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 15 November 2022",
+    "area": "personal",
+    "date": "2022-11-15",
+    "snippet": "Veridia.",
+    "file": "personal/2022-11-15-note-15-november-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 2 November 2022",
+    "area": "personal",
+    "date": "2022-11-02",
+    "snippet": "Louis 14 heart eaten.",
+    "file": "personal/2022-11-02-note-2-november-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 4 May 2022",
+    "area": "personal",
+    "date": "2022-05-04",
+    "snippet": "A triumph — a parade through the streets to celebrate a victory in war.",
+    "file": "personal/2022-05-04-note-4-may-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 6 April 2022",
+    "area": "personal",
+    "date": "2022-04-06",
+    "snippet": "Name band F.I.S.H.",
+    "file": "personal/2022-04-06-note-6-april-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 19 February 2022",
+    "area": "personal",
+    "date": "2022-02-19",
+    "snippet": "When I hear your bars, I just cry inside.",
+    "file": "personal/2022-02-19-note-19-february-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 11 January 2022",
+    "area": "personal",
+    "date": "2022-01-11",
+    "snippet": "Scene starts with a man can through a bar, drunk, slurring, cursing the bartender.",
+    "file": "personal/2022-01-11-note-11-january-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 15 January 2022",
+    "area": "personal",
+    "date": "2022-01-15",
+    "snippet": "Girl wearing loads of layers of clothes.",
+    "file": "personal/2022-01-15-note-15-january-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 23 December 2021",
+    "area": "personal",
+    "date": "2021-12-23",
+    "snippet": "Saved link.",
+    "file": "personal/2021-12-23-note-23-december-2021.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 18 November 2021",
+    "area": "personal",
+    "date": "2021-11-18",
+    "snippet": "Saved link — appmoviehd.info",
+    "file": "personal/2021-11-18-note-18-november-2021.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 6 November 2021",
+    "area": "personal",
+    "date": "2021-11-06",
+    "snippet": "Brief personal note.",
+    "file": "personal/2021-11-06-note-6-november-2021.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 30 September 2021",
+    "area": "personal",
+    "date": "2021-09-30",
+    "snippet": "Reorganise money.",
+    "file": "personal/2021-09-30-note-30-september-2021.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 17 March 2021",
+    "area": "personal",
+    "date": "2021-03-17",
+    "snippet": "Lead.",
+    "file": "personal/2021-03-17-note-17-march-2021.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 28 January 2021",
+    "area": "personal",
+    "date": "2021-01-28",
+    "snippet": "Pandemic lockdown vs breakdown.",
+    "file": "personal/2021-01-28-note-28-january-2021.html",
+    "actions": []
+  },
+  {
+    "title": "Car wrapping note",
+    "area": "personal",
+    "date": "2020-10-17",
+    "snippet": "X graphics for car wrap. We wrap any car — £220.",
+    "file": "personal/2020-10-17-wrapping.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 2 November 2020",
+    "area": "personal",
+    "date": "2020-11-02",
+    "snippet": "Brief personal note.",
+    "file": "personal/2020-11-02-note-2-november-2020.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 5 September 2020",
+    "area": "personal",
+    "date": "2020-09-05",
+    "snippet": "If you want things to change, start by changing yourself. Story idea: Wendy, dead-end job, meets a man, discovers strength.",
+    "file": "personal/2020-09-05-note-5-september-2020.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 1 June 2020",
+    "area": "personal",
+    "date": "2020-06-01",
+    "snippet": "Listen to my song when you don't cry.",
+    "file": "personal/2020-06-01-note-1-june-2020.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 6 May 2020",
+    "area": "personal",
+    "date": "2020-05-06",
+    "snippet": "Saved image reference link.",
+    "file": "personal/2020-05-06-note-6-may-2020.html",
+    "actions": []
+  },
+  {
+    "title": "Journal — 3 August 2019",
+    "area": "personal",
+    "date": "2019-08-03",
+    "snippet": "Reflections after watching Lion King. Motorbike ride in the morning, family afternoon. Questioning identity and authenticity.",
+    "file": "personal/2019-08-03-02082019.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 28 September 2019",
+    "area": "personal",
+    "date": "2019-09-28",
+    "snippet": "Life through frames. Book about eyes.",
+    "file": "personal/2019-09-28-note-28-september-2019.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 21 September 2019",
+    "area": "personal",
+    "date": "2019-09-21",
+    "snippet": "Middle to 1st 4cm / Middle to right 8cm.",
+    "file": "personal/2019-09-21-note-21-september-2019.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 19 July 2019",
+    "area": "personal",
+    "date": "2019-07-19",
+    "snippet": "Kara bday.",
+    "file": "personal/2019-07-19-note-19-july-2019.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 16 July 2019",
+    "area": "personal",
+    "date": "2019-07-16",
+    "snippet": "Interests list: motorbikes, science, speaking to random people, sports, films, reading, family life, history, culture, cars.",
+    "file": "personal/2019-07-16-note-16-july-2019.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 10 October 2018",
+    "area": "personal",
+    "date": "2018-10-10",
+    "snippet": "Rebel in my head.",
+    "file": "personal/2018-10-10-note-10-october-2018.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 12 June 2018",
+    "area": "personal",
+    "date": "2018-06-12",
+    "snippet": "Kara's Kindle email address saved.",
+    "file": "personal/2018-06-12-note-12-june-2018.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 27 October 2017",
+    "area": "personal",
+    "date": "2017-10-27",
+    "snippet": "Supercharger research link — Mazda Menders forum.",
+    "file": "personal/2017-10-27-note-27-october-2017.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 20 July 2017",
+    "area": "personal",
+    "date": "2017-07-20",
+    "snippet": "Rebels.",
+    "file": "personal/2017-07-20-note-20-july-2017.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 23 July 2017",
+    "area": "personal",
+    "date": "2017-07-23",
+    "snippet": "Guys walking around with a theme song blaring.",
+    "file": "personal/2017-07-23-note-23-july-2017.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 18 June 2017",
+    "area": "personal",
+    "date": "2017-06-18",
+    "snippet": "Man in a white hat, seating at the back.",
+    "file": "personal/2017-06-18-note-18-june-2017.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 4 February 2017",
+    "area": "personal",
+    "date": "2017-02-04",
+    "snippet": "Hair that starts brown and turns white as the day goes on. Charges up at night back to brown in the morning.",
+    "file": "personal/2017-02-04-note-4-february-2017.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 17 December 2017",
+    "area": "personal",
+    "date": "2017-12-17",
+    "snippet": "Passphrase / recovery words saved.",
+    "file": "personal/2017-12-17-note-17-december-2017.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 22 September 2016",
+    "area": "personal",
+    "date": "2016-09-22",
+    "snippet": "Saved link — interior design life hacks.",
+    "file": "personal/2016-09-22-note-22-september-2016.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 4 July 2016",
+    "area": "personal",
+    "date": "2016-07-04",
+    "snippet": "Brief personal note.",
+    "file": "personal/2016-07-04-note-4-july-2016.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 4 April 2016",
+    "area": "personal",
+    "date": "2016-04-04",
+    "snippet": "Brief personal note.",
+    "file": "personal/2016-04-04-note-4-april-2016.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 22 February 2016",
+    "area": "personal",
+    "date": "2016-02-22",
+    "snippet": "Fascinated like a kid looking through a plane window.",
+    "file": "personal/2016-02-22-note-22-february-2016.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 15 April 2015",
+    "area": "personal",
+    "date": "2015-04-15",
+    "snippet": "Draw dreams.",
+    "file": "personal/2015-04-15-note-15-april-2015.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 21 February 2015",
+    "area": "personal",
+    "date": "2015-02-21",
+    "snippet": "Rio.",
+    "file": "personal/2015-02-21-note-21-february-2015.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 15 March 2015",
+    "area": "personal",
+    "date": "2015-03-15",
+    "snippet": "Angry snap — lost it.",
+    "file": "personal/2015-03-15-note-15-march-2015.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 15 March 2015 (2)",
+    "area": "personal",
+    "date": "2015-03-15",
+    "snippet": "You're pacing, frustrating, basing casing — poem / lyric fragment.",
+    "file": "personal/2015-03-15-note-15-march-2015-2.html",
+    "actions": []
+  },
+  {
+    "title": "Note — 23 July 2015",
+    "area": "personal",
+    "date": "2015-07-23",
+    "snippet": "Brief personal note.",
+    "file": "personal/2015-07-23-note-23-july-2015.html",
+    "actions": []
+  },
+  {
+    "title": "Writing — story ideas",
+    "area": "personal",
+    "date": "2026-04-23",
+    "snippet": "Consolidated story concepts spanning 2015–2021: future brain hack, robot kids taxi, off-grid society, photographic memory character, code breakers. Plus Pixar story structure template.",
+    "file": "personal/2026-04-23-writing-story-ideas.html",
+    "actions": []
+  },
+  {
+    "title": "Writing — poems & observations",
+    "area": "personal",
+    "date": "2026-04-23",
+    "snippet": "Poem for Kara, a poem fragment, an emotion series, song and rhyme ideas, a library observation, dream fragments, and writing resources including the R.L. Stine writing programme.",
+    "file": "personal/2026-04-23-writing-poems-observations.html",
+    "actions": []
+  },
+  {
+    "title": "Cars — wishlist & notes",
+    "area": "personal",
+    "date": "2026-04-25",
+    "snippet": "GR86 and Honda Stepwagon current vehicles. Wish list: Honda Integra Type R DC5, Eunos Roadster, Euro R. References saved for buying guides and DIY repairs.",
+    "file": "personal/2026-04-25-cars-wishlist.html",
+    "actions": []
+  },
+  {
+    "title": "Home & house notes",
+    "area": "personal",
+    "date": "2026-04-25",
+    "snippet": "Consolidation of house projects and to-dos: garage, garden, bathroom, shed dimensions, water damage notes. DIY references saved.",
+    "file": "personal/2026-04-25-home-house-notes.html",
+    "actions": []
+  },
+  {
+    "title": "Stewartby contacts",
+    "area": "personal",
+    "date": "2021-06-12",
+    "snippet": "Keith and Sarah, Ashley and Amy, Emmanuel and Lissa, Carol and Mark.",
+    "file": "personal/2021-06-12-stewartby-contacts.html",
+    "actions": []
+  }
+]
