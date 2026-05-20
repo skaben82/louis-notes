@@ -1,264 +1,222 @@
 [
   {
-    "title": "GKN notes",
+    "title": "GKN Notes",
     "area": "work",
     "date": "2026-05-13",
-    "snippet": "Cost calculation data from GKN session with scenarios A and B, questions about cost communications and tracking, presentation feedback notes, and session observations.",
+    "snippet": "Calculation is wrong — check inflation. Scenario A: £2,100,000 base cost, £105,000 inflation adjustment = £2,205,000 total. Scenario B: £1,800,000 base cost, £180,000 inflation adjustment = £1,980,000",
     "file": "work/2026-05-13-gkn-notes.html",
-    "actions": []
-  },
-  {
-    "title": "GKN Meeting Notes",
-    "area": "work",
-    "date": "2026-05-13",
-    "snippet": "Meeting notes from GKN session. Key items to follow up on: Eric to send the indirect cost purchasing policy, switch presenters, and ask GKN finance to provide GKN-specific examples.",
-    "file": "work/2026-05-13-gkn-meeting-notes.html",
     "actions": [
-      {"text": "Eric to send indirect cost purchasing policy", "date": null},
-      {"text": "Switch presenters", "date": null},
-      {"text": "Ask GKN finance to provide GKN examples", "date": null},
-      {"text": "Decide: use Excel for breakouts?", "date": null},
-      {"text": "Change the risk number on the breakout exercise cost estimation activity — 150 vs 220", "date": null},
-      {"text": "Too many words per slide on cost control / monitoring etc. — replace with pictures", "date": null}
+      {
+        "text": "Eric to send the indirect cost purchasing policy",
+        "date": null
+      },
+      {
+        "text": "Switch presenters",
+        "date": null
+      },
+      {
+        "text": "Ask GKN finance to provide GKN-specific examples",
+        "date": null
+      },
+      {
+        "text": "Decide: use Excel for breakouts?",
+        "date": null
+      },
+      {
+        "text": "Change the risk number on the breakout exercise cost estimation activity — 150 vs 220",
+        "date": null
+      },
+      {
+        "text": "Replace text-heavy slides (cost control / monitoring etc.) with pictures",
+        "date": null
+      },
+      {
+        "text": "Check and fix the inflation calculation",
+        "date": null
+      }
     ]
   },
   {
-    "title": "Tekmar — cash model plan",
+    "title": "Tekmar — cash model plan | 6 May 2026",
     "area": "work",
     "date": "2026-05-06",
-    "snippet": "Build a cash model for Tekmar. Ramp to 250 days. Remodel at 3 years.",
+    "snippet": "Plan for building the cash model with Tekmar. Key steps and parameters noted below. Migrated from Notion — original note dated 6 May 2026.",
     "file": "work/2026-05-06-tekmar-cash-model-plan.html",
     "actions": []
   },
   {
-    "title": "3T Notes",
-    "area": "work",
-    "date": "2024-09-03",
-    "snippet": "2023 accounts show a loss, not a profit as per management accounts. 2022: £700k loss, £350k WIP write-off, plus provision to pay £80k. Nat to meet with auditors. Now in HMRC court.",
-    "file": "work/2024-09-03-3t-notes.html",
+    "title": "Cars — wishlist & notes | 25 Apr 2026",
+    "area": "personal",
+    "date": "2026-04-25",
+    "snippet": "Migrated from Notion — Personal → Cars & Vehicles (consolidated key items).",
+    "file": "personal/2026-04-25-cars-wishlist.html",
     "actions": []
   },
   {
-    "title": "3t — audit notes",
+    "title": "Home & house notes | 25 Apr 2026",
+    "area": "personal",
+    "date": "2026-04-25",
+    "snippet": "Migrated from Notion — Personal → Home & House (consolidated key items).",
+    "file": "personal/2026-04-25-home-house-notes.html",
+    "actions": []
+  },
+  {
+    "title": "3t — audit notes | 23 Apr 2026",
     "area": "work",
     "date": "2026-04-23",
-    "snippet": "Notes from the 3t audit. Large revenue samples reviewed. Key findings: no delivery notes since Inna started, one-off incorrect posting with duplicate invoice amounts, costs not accrued by business policy.",
+    "snippet": "Notes from the 3t audit. Large revenue samples reviewed. Key findings below. Migrated from Notion — merged from two near-identical pages: \"3t\" and \"3t audit notes\".",
     "file": "work/2026-04-23-3t-audit-notes.html",
     "actions": []
   },
   {
-    "title": "3t — revenue recognition",
+    "title": "3t — revenue recognition | 23 Apr 2026",
     "area": "work",
     "date": "2026-04-23",
-    "snippet": "Revenue recognition example for 3t. Original content was stored as an embedded image in Notion and cannot be recovered as text.",
+    "snippet": "This note existed in Notion as a revenue recognition example for 3t. The original content was stored as an embedded image rather than text. Migrated from Notion — content was image-only, text not reco",
     "file": "work/2026-04-23-3t-revenue-recognition.html",
     "actions": []
   },
   {
-    "title": "Scope — OODA loop project",
+    "title": "Scope — OODA loop project | 23 Apr 2026",
     "area": "work",
     "date": "2026-04-23",
-    "snippet": "Scoping notes for a project using the OODA loop (Observe, Orient, Decide, Act) as a framework for coaching material development.",
+    "snippet": "Scoping notes for a project using the OODA loop structure (Observe, Orient, Decide, Act) as a framework for coaching material development. Migrated from Notion — merged from two near-identical pages:",
     "file": "work/2026-04-23-scope-ooda-loop-project.html",
     "actions": []
   },
   {
-    "title": "Training skills — cross-function notes",
+    "title": "Training skills — cross-function notes | 23 Apr 2026",
     "area": "work",
     "date": "2026-04-23",
-    "snippet": "Notes from a cross-function session on training skills frameworks. Quality has 50 skills defined in Workday with 20 generic job profiles. ME covers 30 roles for 30,000 people.",
+    "snippet": "Notes from a cross-function session on training skills frameworks. Key themes: skills catalogues, learning routes, and how different departments are approaching skills development. Migrated from Notio",
     "file": "work/2026-04-23-training-skills-cross-function.html",
     "actions": []
   },
   {
-    "title": "Note — 13 April 2023",
-    "area": "work",
-    "date": "2023-04-13",
-    "snippet": "The Merits of Budgeting — work notes from April 2023.",
-    "file": "work/2023-04-13-note-13-april-2023.html",
+    "title": "Writing — poems & observations | 23 Apr 2026",
+    "area": "personal",
+    "date": "2026-04-23",
+    "snippet": "In a library listening to an old couple trying to register for a blue badge. The librarian is on the computer asking them questions. \"How will a blue badge help your travels?\" The man: \"I don't think",
+    "file": "personal/2026-04-23-writing-poems-observations.html",
     "actions": []
   },
   {
-    "title": "Note — 13 April 2021",
-    "area": "work",
-    "date": "2021-04-13",
-    "snippet": "Mock tribunal 2016 CIPD April 2016.",
-    "file": "work/2021-04-13-note-13-april-2021.html",
+    "title": "Writing — story ideas | 23 Apr 2026",
+    "area": "personal",
+    "date": "2026-04-23",
+    "snippet": "Humans have the ability to control machines with their minds. Someone figures out a way to hack your thoughts — and can control machines through you. Transport kids in the morning on those little robo",
+    "file": "personal/2026-04-23-writing-story-ideas.html",
     "actions": []
   },
   {
-    "title": "Note — 24 January 2015",
-    "area": "work",
-    "date": "2015-01-24",
-    "snippet": "Plastering course.",
-    "file": "work/2015-01-24-note-24-january-2015.html",
-    "actions": []
-  },
-  {
-    "title": "Side hustle — goal & strategy",
+    "title": "Courses purchased | 23 Apr 2026",
     "area": "side-hustle",
     "date": "2026-04-23",
-    "snippet": "Building towards £100k revenue within 3 years (target: April 2029). Strategy covers offer, audience, how to reach them, and supporting content.",
+    "snippet": "URL: simplivlearning.com Email: louis010282@yahoo.co.uk",
+    "file": "side-hustle/2026-04-23-courses-purchased.html",
+    "actions": []
+  },
+  {
+    "title": "Drone business plan",
+    "area": "side-hustle",
+    "date": "2026-04-23",
+    "snippet": "Migrated from Notion — Side Hustle → Drone business plan.",
+    "file": "side-hustle/2026-04-23-drone-business-plan.html",
+    "actions": []
+  },
+  {
+    "title": "Drone idea — filming & content | 23 Apr 2026",
+    "area": "side-hustle",
+    "date": "2026-04-23",
+    "snippet": "Migrated from Notion — Side Hustle → Drone idea.",
+    "file": "side-hustle/2026-04-23-drone-idea.html",
+    "actions": []
+  },
+  {
+    "title": "Ebanks Fire Protection — notes & ideas | 23 Apr 2026",
+    "area": "side-hustle",
+    "date": "2026-04-23",
+    "snippet": "Migrated from Notion — merged from \"Ebanks fire protection\", \"Ebanks Fire protection ideas\", \"Client list needed - Fire Protection\", and \"Fire promotion\".",
+    "file": "side-hustle/2026-04-23-ebanks-fire-protection.html",
+    "actions": []
+  },
+  {
+    "title": "Fire Protection — email scripts | 23 Apr 2026",
+    "area": "side-hustle",
+    "date": "2026-04-23",
+    "snippet": "Outreach email templates for eBanks Fire Protection. Personalise the greeting, sign-off, and contact details before sending. Swap sectors as needed. Dear [Client's Name]",
+    "file": "side-hustle/2026-04-23-fire-protection-email-scripts.html",
+    "actions": []
+  },
+  {
+    "title": "Side hustle — goal & strategy | 23 Apr 2026",
+    "area": "side-hustle",
+    "date": "2026-04-23",
+    "snippet": "Think through the model, test ideas, and track what's working. Migrated from Notion — Side Hustle parent page.",
     "file": "side-hustle/2026-04-23-side-hustle-goal.html",
+    "actions": []
+  },
+  {
+    "title": "Lidl Meal Prep",
+    "area": "content",
+    "date": "2026-03-17",
+    "snippet": "1kg Four Berry Medley (£2.99) · 240g Porridge Oats (£0.90) · 2kg Fat Free Natural Yoghurt · 250ml UHT Skimmed Milk · 1.5 tbsp cinnamon 300g penne pasta · 1 packet fajita cooking mix · 900g chicken thi",
+    "file": "content/2026-03-17-lidl-meal-prep.html",
+    "actions": []
+  },
+  {
+    "title": "BBC Sounds",
+    "area": "personal",
+    "date": "2026-03-12",
+    "snippet": "https://www.bbc.co.uk/sounds/play/m002s1hr",
+    "file": "personal/2026-03-12-bbc-sounds-link.html",
     "actions": []
   },
   {
     "title": "Fitness Grocery List",
     "area": "side-hustle",
     "date": "2026-01-02",
-    "snippet": "Grocery list for fitness meal prep: chicken breast, lean beef, salmon, tuna, eggs, Greek yogurt, oats, sweet potatoes, spinach, berries, almonds, peanut butter.",
+    "snippet": "{ background: #fce4ec; color: #c62828; } .note-body { margin-bottom: 32px; } .item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 0; border-bottom: 1px solid #f0f0f0; } .item:last-c",
     "file": "side-hustle/2026-01-02-fitness-grocery-list.html",
-    "actions": []
-  },
-  {
-    "title": "Drone idea — filming & content",
-    "area": "side-hustle",
-    "date": "2026-04-23",
-    "snippet": "Film city — 2 mins long, 5–6 popular locations. Research via Pinterest and Google. Share on YouTube, link to website. Shoot sunsets, 4-second clips, low ambient/electronic music.",
-    "file": "side-hustle/2026-04-23-drone-idea.html",
-    "actions": []
-  },
-  {
-    "title": "Drone business plan — 12-month beginner to pro",
-    "area": "side-hustle",
-    "date": "2026-04-23",
-    "snippet": "Full 12-month UK drone footage business plan. Covers CAA registration, portfolio building, stock footage uploads, first client work, and scaling to £500–£1,000/month by end of year.",
-    "file": "side-hustle/2026-04-23-drone-business-plan.html",
-    "actions": []
-  },
-  {
-    "title": "Ebanks Fire Protection — notes & ideas",
-    "area": "side-hustle",
-    "date": "2026-04-23",
-    "snippet": "Fire risk assessment business. Target clients: care homes, HMOs, offices, universities, council property, schools. Ideas: app, business budget, investment, business development.",
-    "file": "side-hustle/2026-04-23-ebanks-fire-protection.html",
-    "actions": []
-  },
-  {
-    "title": "Fire Protection — email scripts",
-    "area": "side-hustle",
-    "date": "2026-04-23",
-    "snippet": "Outreach email templates for eBanks Fire Protection. Includes general formal and conversational versions, plus sector-specific templates for schools, offices, universities, HMOs, and care homes.",
-    "file": "side-hustle/2026-04-23-fire-protection-email-scripts.html",
-    "actions": []
-  },
-  {
-    "title": "Courses purchased",
-    "area": "side-hustle",
-    "date": "2026-04-23",
-    "snippet": "BSL Level 1 & 2, Podcasting, YouTube Masterclass, Music Production, Graphic Design, Excel, Persuasion, English Grammar, Adobe Photoshop, Illustrator. Login details for Simpliv and CPD Portal saved.",
-    "file": "side-hustle/2026-04-23-courses-purchased.html",
-    "actions": []
-  },
-  {
-    "title": "12 New Things for 2021",
-    "area": "side-hustle",
-    "date": "2023-06-19",
-    "snippet": "Goals list: write a story, write a children's book, learn to code, juggle, play drums, take more photos, remix songs, learn superbike riding. Some items completed.",
-    "file": "side-hustle/2023-06-19-12-new-things-2021.html",
-    "actions": []
-  },
-  {
-    "title": "Lidl Meal Prep — £25 Weekly for 17 Meals",
-    "area": "content",
-    "date": "2026-03-17",
-    "snippet": "Detailed meal prep plan using £25 weekly Lidl shop. Covers overnight oats (4 portions), berry smoothies, and other meals with full ingredients and method.",
-    "file": "content/2026-03-17-lidl-meal-prep.html",
-    "actions": []
-  },
-  {
-    "title": "Photography — shot techniques",
-    "area": "content",
-    "date": "2024-10-13",
-    "snippet": "Shot techniques including panning, slow and fast shutter, camera angles for video, night time settings that worked (14mm, f1.8, ISO 1600), and drone shot types.",
-    "file": "content/2024-10-13-photography-shot-techniques.html",
-    "actions": []
-  },
-  {
-    "title": "Night Time Shots",
-    "area": "content",
-    "date": "2024-10-13",
-    "snippet": "Camera settings for night photography / timelapse: 14mm, 10 seconds, f1.8, ISO 1600 — 12 second interval with 2 second break between exposures.",
-    "file": "content/2024-10-13-night-time-shots.html",
-    "actions": []
-  },
-  {
-    "title": "Stewartby Video Locations",
-    "area": "content",
-    "date": "2024-10-13",
-    "snippet": "Video locations in Stewartby: forest, train, village hall, kiln, skate park, Covanta chimney, Hanson Reach, and more.",
-    "file": "content/2024-10-13-stewartby-video-locations.html",
-    "actions": []
-  },
-  {
-    "title": "Photography — locations",
-    "area": "content",
-    "date": "2024-10-13",
-    "snippet": "Stewartby video locations including forest, train, village hall, kiln, skate park, chimney, and turbine. Also gravel path near Cranfield and Morrison's car park MK.",
-    "file": "content/2024-10-13-photography-locations.html",
-    "actions": []
-  },
-  {
-    "title": "Friday photos needed",
-    "area": "content",
-    "date": "2024-01-24",
-    "snippet": "Shot list for a Friday shoot — portraits, group shots, and scene coverage including workshops, speakers in flow, arrivals, and downtime.",
-    "file": "content/2024-01-24-friday-photos-needed.html",
-    "actions": []
-  },
-  {
-    "title": "Modified cars — book idea",
-    "area": "content",
-    "date": "2023-07-14",
-    "snippet": "Book about modified cars. Covering history from different countries (Germany, Japan, UK, USA), famous tuners, magazines, common car upgrades, media, YouTube, films.",
-    "file": "content/2023-07-14-note-14-july-2023.html",
-    "actions": []
-  },
-  {
-    "title": "Stewartby T-shirts idea",
-    "area": "content",
-    "date": "2023-08-28",
-    "snippet": "Range of Stewartby T-shirts with pictures of the area.",
-    "file": "content/2023-08-28-note-28-august-2023.html",
-    "actions": []
-  },
-  {
-    "title": "Writing blog — location-based content",
-    "area": "content",
-    "date": "2022-10-30",
-    "snippet": "Writing blog concept: research books, go to locations to blog about people, characters, plots. Use locations as writing prompts. Video everything.",
-    "file": "content/2022-10-30-note-30-october-2022.html",
-    "actions": []
-  },
-  {
-    "title": "Photography — reference links",
-    "area": "content",
-    "date": "2022-10-16",
-    "snippet": "Two reference articles saved: colour grading for cinematic shots (Amateur Photographer) and 25 sitting poses for photos (Imaginated).",
-    "file": "content/2022-10-16-photography-references.html",
-    "actions": []
-  },
-  {
-    "title": "Content ideas — early notes",
-    "area": "content",
-    "date": "2022-08-31",
-    "snippet": "Early content direction thoughts: document book writing, Go Pro filming, and social media.",
-    "file": "content/2022-08-31-content-ideas-early.html",
     "actions": []
   },
   {
     "title": "To-Do List",
     "area": "personal",
     "date": "2025-10-04",
-    "snippet": "Social media plan (outstanding). Completed: car spray, library book, expenses, drone pick up, GR insurance.",
+    "snippet": "{ background: #e8f5e9; color: #2e7d32; } .note-body { margin-bottom: 32px; } .item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 0; border-bottom: 1px solid #f0f0f0; } .item:last-c",
     "file": "personal/2025-10-04-to-do-list.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "content",
+    "date": "2025-10-04",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "content/2025-10-04-note-4-october-2025.html",
+    "actions": []
+  },
+  {
+    "title": "Sunset red meadow to do list",
+    "area": "personal",
+    "date": "2025-09-28",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2025-09-28-sunset-red-meadow-to-do-list.html",
+    "actions": []
+  },
+  {
+    "title": "Shoe Sizes",
+    "area": "personal",
+    "date": "2025-01-28",
+    "snippet": "Alfred — Size 2 Isabelle — Size 9",
+    "file": "personal/2025-01-28-shoe-sizes.html",
     "actions": []
   },
   {
     "title": "Family Places to Visit",
     "area": "personal",
     "date": "2025-01-14",
-    "snippet": "Giant's Causeway, Highlands, Lapland, Disneyland Paris, Kenya, Jamaica.",
+    "snippet": "{ background: #e8f5e9; color: #2e7d32; } .note-body { margin-bottom: 32px; } .note-body ul { padding-left: 24px; } .note-body li { margin-bottom: 8px; } .back-link { display: inline-block; margin-top:",
     "file": "personal/2025-01-14-family-places-to-visit.html",
     "actions": []
   },
@@ -266,560 +224,2861 @@
     "title": "Louis Birthday Ideas",
     "area": "personal",
     "date": "2025-01-14",
-    "snippet": "8BitDo Ultimate Bluetooth Controller, Pi Monitor from Pimoroni, Montego's patties.",
+    "snippet": "8BitDo Ultimate Bluetooth & 2.4G Controller with Charging Dock (Switch and Windows — Black) Amazon link",
     "file": "personal/2025-01-14-louis-birthday-ideas.html",
     "actions": []
   },
   {
-    "title": "Shoe Sizes",
+    "title": "Quack Recovery Code",
     "area": "personal",
-    "date": "2025-01-28",
-    "snippet": "Alfred — Size 2. Isabelle — Size 9.",
-    "file": "personal/2025-01-28-shoe-sizes.html",
-    "actions": []
-  },
-  {
-    "title": "BBC Sounds",
-    "area": "personal",
-    "date": "2026-03-12",
-    "snippet": "Saved BBC Sounds link: bbc.co.uk/sounds/play/m002s1hr",
-    "file": "personal/2026-03-12-bbc-sounds-link.html",
-    "actions": []
-  },
-  {
-    "title": "Health — Blood Test",
-    "area": "personal",
-    "date": "2024-04-22",
-    "snippet": "Spoke to Dr Jaiswal. White blood cell / neutrophils count low — score 1.13, should be 2+. No fever, infections, lumps or night sweats. Book follow-up blood test.",
-    "file": "personal/2024-04-22-health-blood-test.html",
+    "date": "2024-10-18",
+    "snippet": "App recovery code (base64 encoded):",
+    "file": "personal/2024-10-18-quack-recovery-code.html",
     "actions": []
   },
   {
     "title": "Backup Code",
     "area": "personal",
     "date": "2024-10-17",
-    "snippet": "Backup / recovery code: CL5S W4CN A4DP 42DD XRKT QQ6M 4ZBF",
+    "snippet": "Backup / recovery code (app unknown):",
     "file": "personal/2024-10-17-backup-code.html",
     "actions": []
   },
   {
-    "title": "Quack — Recovery Code",
+    "title": "Note",
     "area": "personal",
-    "date": "2024-10-18",
-    "snippet": "App recovery code (base64 encoded) for Quack app.",
-    "file": "personal/2024-10-18-quack-recovery-code.html",
+    "date": "2024-10-17",
+    "snippet": "CL5S W4CN A4DP 42DD XRKT QQ6M 4ZBF",
+    "file": "personal/2024-10-17-note-17-october-2024.html",
     "actions": []
   },
   {
     "title": "Motorbike Gear",
     "area": "personal",
     "date": "2024-10-16",
-    "snippet": "Note was empty in Google Keep — no content captured.",
+    "snippet": "(No content captured — note was empty in Google Keep.)",
     "file": "personal/2024-10-16-motorbike-gear.html",
     "actions": []
   },
   {
-    "title": "Interview Answers",
+    "title": "Night Time Shots",
+    "area": "content",
+    "date": "2024-10-13",
+    "snippet": "Camera settings for night photography / timelapse:",
+    "file": "content/2024-10-13-night-time-shots.html",
+    "actions": []
+  },
+  {
+    "title": "Photography — locations | 13 Oct 2024",
+    "area": "content",
+    "date": "2024-10-13",
+    "snippet": "Migrated from Notion — original notes dated 2018 and October 2024.",
+    "file": "content/2024-10-13-photography-locations.html",
+    "actions": []
+  },
+  {
+    "title": "Photography — shot techniques | 13 Oct 2024",
+    "area": "content",
+    "date": "2024-10-13",
+    "snippet": "Settings that worked: 14mm, 10 seconds, f1.8, ISO 1600. 12 second interval between shots (2 second break between exposures). Migrated from Notion — original notes dated between 2015 and October 2024.",
+    "file": "content/2024-10-13-photography-shot-techniques.html",
+    "actions": []
+  },
+  {
+    "title": "Stewartby Video Locations",
+    "area": "content",
+    "date": "2024-10-13",
+    "snippet": "{ background: #fff3e0; color: #e65100; } .note-body { margin-bottom: 32px; } .note-body ul { padding-left: 24px; } .note-body li { margin-bottom: 8px; } .back-link { display: inline-block; margin-top:",
+    "file": "content/2024-10-13-stewartby-video-locations.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
-    "date": "2024-08-12",
-    "snippet": "If you were an animal: a swan — serene on top, paddling furiously underneath. Storytelling framework: Therefore / But / Beats.",
-    "file": "personal/2024-08-12-interview-answers.html",
+    "date": "2024-10-08",
+    "snippet": "JOBh_$@-9$bb2np",
+    "file": "personal/2024-10-08-note-8-october-2024.html",
+    "actions": []
+  },
+  {
+    "title": "Things to do",
+    "area": "content",
+    "date": "2024-10-01",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "content/2024-10-01-things-to-do.html",
     "actions": []
   },
   {
     "title": "Drill Bit Size",
     "area": "personal",
     "date": "2024-09-06",
-    "snippet": "5mm brick bit.",
+    "snippet": "5mm brick bit",
     "file": "personal/2024-09-06-drill-bit-size.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2024-09-06",
+    "snippet": "5mm brick bit",
+    "file": "personal/2024-09-06-note-6-september-2024.html",
+    "actions": []
+  },
+  {
+    "title": "3T Notes",
+    "area": "work",
+    "date": "2024-09-03",
+    "snippet": "Work in progress progressing. Met with auditors while on holiday. 2023 accounts show a loss, not a profit as per management accounts. 2022: £700k loss, £350k WIP write-off, plus provision to pay £80k.",
+    "file": "work/2024-09-03-3t-notes.html",
+    "actions": [
+      {
+        "text": "Nat to meet with auditors",
+        "date": null
+      },
+      {
+        "text": "Follow up on HMRC court proceedings",
+        "date": null
+      }
+    ]
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2024-08-28",
+    "snippet": "Beats Therefore ... But....",
+    "file": "personal/2024-08-28-note-28-august-2024.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2024-08-13",
+    "snippet": "Would you rather fight one horse-sized duck or 100 duck-sized horses?” A horse size duck would be dangerous. Its bill could kill you and its wings might knock you over. If I had to, I would rather fig",
+    "file": "personal/2024-08-13-note-13-august-2024.html",
+    "actions": []
+  },
+  {
+    "title": "Interview Answers",
+    "area": "personal",
+    "date": "2024-08-12",
+    "snippet": "If you were an animal, which one would you be? A swan — because I am serene on top and paddling furiously underneath where no one can see my efforts. Would you rather fight one horse-sized duck or 100",
+    "file": "personal/2024-08-12-interview-answers.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2024-08-12",
+    "snippet": "If you were an animal, which one would you be? A swan, because “I am serene on top and paddling furiously underneath where no one can see my effo",
+    "file": "personal/2024-08-12-note-12-august-2024.html",
     "actions": []
   },
   {
     "title": "Cereal Mix Ingredients",
     "area": "personal",
     "date": "2024-08-05",
-    "snippet": "Bran flakes, raisins, sultanas, coconut, banana, hazelnuts.",
+    "snippet": "{ background: #e8f5e9; color: #2e7d32; } .note-body { margin-bottom: 32px; } .note-body ul { padding-left: 24px; } .note-body li { margin-bottom: 8px; } .back-link { display: inline-block; margin-top:",
     "file": "personal/2024-08-05-cereal-mix-ingredients.html",
     "actions": []
   },
   {
-    "title": "GOG Game Code — Call of Juarez",
+    "title": "Note",
+    "area": "personal",
+    "date": "2024-08-05",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2024-08-05-note-5-august-2024.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2024-08-02",
+    "snippet": "Purple Kara",
+    "file": "personal/2024-08-02-note-2-august-2024.html",
+    "actions": []
+  },
+  {
+    "title": "GOG Game Code",
     "area": "personal",
     "date": "2024-07-21",
-    "snippet": "Amazon Prime Gaming code for Call of Juarez: Bound in Blood. Redeem via GOG Galaxy.",
+    "snippet": "Amazon Prime Gaming code for Call of Juarez: Bound in Blood. To redeem: Download GOG Galaxy (Windows only) → sign in → gear icon top-left → Add games & friends → Redeem GOG code → enter code above.",
     "file": "personal/2024-07-21-gog-game-code.html",
     "actions": []
   },
   {
-    "title": "Wheel specs — 18x8 ET40",
+    "title": "Note",
+    "area": "personal",
+    "date": "2024-07-21",
+    "snippet": "J7RFDB2089F56A064B",
+    "file": "personal/2024-07-21-note-21-july-2024-2.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2024-07-21",
+    "snippet": "Download and install the GOG Galaxy app (Windows PC only). Open GOG Galaxy and sign in or create a new account. Click on the gear icon in the top-left of the app, click \"Add games & friends\" and then",
+    "file": "personal/2024-07-21-note-21-july-2024.html",
+    "actions": [
+      {
+        "text": "of Juarez: Bound in Blood",
+        "date": null
+      }
+    ]
+  },
+  {
+    "title": "Mar22",
+    "area": "work",
+    "date": "2024-07-15",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "work/2024-07-15-mar22.html",
+    "actions": []
+  },
+  {
+    "title": "time off",
+    "area": "work",
+    "date": "2024-07-15",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "work/2024-07-15-time-off.html",
+    "actions": []
+  },
+  {
+    "title": "Euro R to do",
+    "area": "personal",
+    "date": "2024-07-15",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2024-07-15-euro-r-to-do.html",
+    "actions": []
+  },
+  {
+    "title": "Fleet to do list",
+    "area": "personal",
+    "date": "2024-07-15",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2024-07-15-fleet-to-do-list.html",
+    "actions": []
+  },
+  {
+    "title": "games from chromebook",
+    "area": "personal",
+    "date": "2024-07-15",
+    "snippet": "Monument Valley 1+2",
+    "file": "personal/2024-07-15-games-from-chromebook.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2024-07-15",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2024-07-15-note-15-july-2024-2.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2024-07-15",
+    "snippet": "Business Compass Compa$$",
+    "file": "personal/2024-07-15-note-15-july-2024.html",
+    "actions": []
+  },
+  {
+    "title": "Today",
+    "area": "personal",
+    "date": "2024-07-15",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2024-07-15-today.html",
+    "actions": []
+  },
+  {
+    "title": "Box",
+    "area": "personal",
+    "date": "2024-07-11",
+    "snippet": "H 31 W 38 L 48",
+    "file": "personal/2024-07-11-box.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2024-07-05",
+    "snippet": "Albertson name",
+    "file": "personal/2024-07-05-note-5-july-2024.html",
+    "actions": []
+  },
+  {
+    "title": "Tap filter",
+    "area": "personal",
+    "date": "2024-07-04",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2024-07-04-tap-filter.html",
+    "actions": []
+  },
+  {
+    "title": "Things",
+    "area": "personal",
+    "date": "2024-06-27",
+    "snippet": "Read book blink Watch BBC travel programme",
+    "file": "personal/2024-06-27-things.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2024-06-08",
+    "snippet": "Being not buying",
+    "file": "personal/2024-06-08-note-8-june-2024.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2024-05-25",
+    "snippet": "Zharko olive restaurant",
+    "file": "personal/2024-05-25-note-25-may-2024.html",
+    "actions": []
+  },
+  {
+    "title": "Hols weight",
+    "area": "personal",
+    "date": "2024-05-23",
+    "snippet": "Mon 82.5 Tue 82.2 Wed 82.5",
+    "file": "personal/2024-05-23-hols-weight.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "content",
+    "date": "2024-05-21",
+    "snippet": "Close Chrome, then edit the \"Preferences\" file in C:\\Users\\<You>\\AppData\\Local\\Google\\Chrome\\User Data\\Default. Change exit_type to \"none\" and exited_cleanly to \"true,\" then save and restart Chrome",
+    "file": "content/2024-05-21-note-21-may-2024.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2024-05-15",
+    "snippet": "Defective mentality Power flows to the one who knows",
+    "file": "personal/2024-05-15-note-15-may-2024.html",
+    "actions": []
+  },
+  {
+    "title": "Old links",
+    "area": "content",
+    "date": "2024-05-14",
+    "snippet": "https://www2.deloitte.com/ch/en/pages/strategy-operations/monitor-deloitte/solutions/business-transformation.html destination journey https://www.mibreit-photo.com/shop/",
+    "file": "content/2024-05-14-old-links.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2024-05-05",
+    "snippet": "Text for photo website",
+    "file": "personal/2024-05-05-note-5-may-2024.html",
+    "actions": []
+  },
+  {
+    "title": "Bank accounts",
+    "area": "work",
+    "date": "2024-05-02",
+    "snippet": "Joint current 47432039 601328",
+    "file": "work/2024-05-02-bank-accounts.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2024-04-28",
+    "snippet": "Comic Swimming Don't want to go",
+    "file": "personal/2024-04-28-note-28-april-2024.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "content",
+    "date": "2024-04-23",
+    "snippet": "Tracking phone Videos",
+    "file": "content/2024-04-23-note-23-april-2024.html",
+    "actions": []
+  },
+  {
+    "title": "2024 weight",
+    "area": "personal",
+    "date": "2024-04-22",
+    "snippet": "1/1/24 86.7kg",
+    "file": "personal/2024-04-22-2024-weight.html",
+    "actions": []
+  },
+  {
+    "title": "Health — Blood Test",
+    "area": "personal",
+    "date": "2024-04-22",
+    "snippet": "Spoke to Dr Jaiswal. White blood cell / neutrophils count low — score 1.13, should be 2+. No fever or infections. No lumps or bumps. No night sweats. Book another blood test in May and then a follow-u",
+    "file": "personal/2024-04-22-health-blood-test.html",
+    "actions": [
+      {
+        "text": "Book blood test",
+        "date": null
+      },
+      {
+        "text": "Follow-up call with Dr Jaiswal one week after blood test",
+        "date": null
+      }
+    ]
+  },
+  {
+    "title": "Note",
+    "area": "content",
+    "date": "2024-04-12",
+    "snippet": "Stewartby t shirt",
+    "file": "content/2024-04-12-note-12-april-2024.html",
+    "actions": []
+  },
+  {
+    "title": "Photo ideas",
+    "area": "content",
+    "date": "2024-04-12",
+    "snippet": "Panning shot Slow shutter Fast shutter",
+    "file": "content/2024-04-12-photo-ideas.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2024-03-27",
+    "snippet": "oldies talking bout tattoos and what they mean. birds, dead dogs, daughters etc",
+    "file": "personal/2024-03-27-note-27-march-2024.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2024-03-02",
+    "snippet": "What could have been? Loss motherhood",
+    "file": "personal/2024-03-02-note-2-march-2024.html",
+    "actions": []
+  },
+  {
+    "title": "Band name",
+    "area": "personal",
+    "date": "2024-03-01",
+    "snippet": "Dinosaurs don't die",
+    "file": "personal/2024-03-01-band-name.html",
+    "actions": []
+  },
+  {
+    "title": "Shopping list",
+    "area": "personal",
+    "date": "2024-02-21",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2024-02-21-shopping-list.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2024-02-15",
+    "snippet": "Prius visor Arm rest Grey",
+    "file": "personal/2024-02-15-note-15-february-2024.html",
+    "actions": []
+  },
+  {
+    "title": "Drone",
+    "area": "content",
+    "date": "2024-02-15",
+    "snippet": "Sounds and music The reveal Orbit",
+    "file": "content/2024-02-15-drone.html",
+    "actions": []
+  },
+  {
+    "title": "Alfred",
+    "area": "personal",
+    "date": "2024-02-13",
+    "snippet": "Russell recharge finger calming Power of yet website",
+    "file": "personal/2024-02-13-alfred.html",
+    "actions": []
+  },
+  {
+    "title": "T shirts",
+    "area": "personal",
+    "date": "2024-01-26",
+    "snippet": "I do karate Don't stand out. Big logo KING big letters, maybe king and a symbol KING&",
+    "file": "personal/2024-01-26-t-shirts.html",
+    "actions": []
+  },
+  {
+    "title": "Friday photos needed",
+    "area": "content",
+    "date": "2024-01-24",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "content/2024-01-24-friday-photos-needed.html",
+    "actions": []
+  },
+  {
+    "title": "Car specs",
+    "area": "personal",
+    "date": "2024-01-15",
+    "snippet": "Bright outside light SS 1/400 A 3.5",
+    "file": "personal/2024-01-15-car-specs.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2024-01-15",
+    "snippet": "Balance Board Trainer Inmotion E1000 Under Desk Elliptical Machine Weatherman Travel Umbrella",
+    "file": "personal/2024-01-15-note-15-january-2024.html",
+    "actions": []
+  },
+  {
+    "title": "Louis birthday list",
+    "area": "side-hustle",
+    "date": "2024-01-14",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "side-hustle/2024-01-14-louis-birthday-list.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "work",
+    "date": "2024-01-10",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "work/2024-01-10-note-10-january-2024.html",
+    "actions": []
+  },
+  {
+    "title": "Gptw",
+    "area": "work",
+    "date": "2023-11-24",
+    "snippet": "Team specific questions obvious Generic questions Answered honestly?",
+    "file": "work/2023-11-24-gptw.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2023-11-18",
+    "snippet": "What's your problem? Talk to me, let's solve them",
+    "file": "personal/2023-11-18-note-18-november-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Persimmon call 6/11",
+    "area": "personal",
+    "date": "2023-11-06",
+    "snippet": "Mark came round today from persimmon to fix leak tap Told to go away and speak to customer services Had no idea what he was doing",
+    "file": "personal/2023-11-06-persimmon-call-611.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2023-10-29",
-    "snippet": "18 x 8, ET40, Team Dynamics Pro Race 1.2 on 225/40/18 tyre.",
+    "snippet": "18 x 8, Et40, team dynamics pro race 1.2 on 225 40 18 tyre",
     "file": "personal/2023-10-29-note-29-october-2023.html",
     "actions": []
   },
   {
-    "title": "Writing — poem fragment",
+    "title": "Anyone notice the HVAC system switches to recirculate frequently? | Toyota GR86 Forum - GT86 Forum, Subaru BRZ Forum, Scion ...",
+    "area": "personal",
+    "date": "2023-10-16",
+    "snippet": "https://www.gr86.org/threads/anyone-notice-the-hvac-system-switches-to-recirculate-frequently.2105/",
+    "file": "personal/2023-10-16-anyone-notice-the-hvac-system-switches-to-recirculate-freque.html",
+    "actions": []
+  },
+  {
+    "title": "gr86 wheel spec",
+    "area": "personal",
+    "date": "2023-10-16",
+    "snippet": "The stock wheels, for both the GR86 and BRZ, share the following specs in both 17” & 18” sizes: 48 mm offset 7.5” width",
+    "file": "personal/2023-10-16-gr86-wheel-spec.html",
+    "actions": []
+  },
+  {
+    "title": "Gr86 side",
+    "area": "personal",
+    "date": "2023-10-02",
+    "snippet": "Power windows both sides Door unlock both sides Air recirc on start up",
+    "file": "personal/2023-10-02-gr86-side.html",
+    "actions": []
+  },
+  {
+    "title": "Turkey atalya",
+    "area": "personal",
+    "date": "2023-09-30",
+    "snippet": "Titanic deluxe Delphine imperial Concorde deluxe",
+    "file": "personal/2023-09-30-turkey-atalya.html",
+    "actions": []
+  },
+  {
+    "title": "GR86 - Coding via service departments. | Page 2 | Toyota GR Forum for owners of GR Yaris, GR86, GR Supra and GR Corolla",
+    "area": "personal",
+    "date": "2023-09-28",
+    "snippet": "https://www.gr-zoo.com/threads/coding-via-service-departments.3261/page-2",
+    "file": "personal/2023-09-28-gr86-coding-via-service-departments-page-2-toyota-gr-forum-f.html",
+    "actions": []
+  },
+  {
+    "title": "Miata Window Switch Repair - Did It Myself",
+    "area": "personal",
+    "date": "2023-09-10",
+    "snippet": "https://did-it-myself.com/miata-window-switch-repair/",
+    "file": "personal/2023-09-10-miata-window-switch-repair-did-it-myself.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2023-09-09",
-    "snippet": "I just want you to hold my hand / We can walk down the street together / Doesn't matter what time of day / I'm ready to do it whenever.",
+    "snippet": "I just want you to hold my hand We can walk down the street together Doesn't matter what time of day",
     "file": "personal/2023-09-09-note-9-september-2023.html",
     "actions": []
   },
   {
-    "title": "Note — 28 July 2023",
-    "area": "personal",
-    "date": "2023-07-28",
-    "snippet": "CAS (crankshaft angle sensor) is the one in the front of the engine.",
-    "file": "personal/2023-07-28-note-28-july-2023.html",
+    "title": "Note",
+    "area": "content",
+    "date": "2023-08-28",
+    "snippet": "Range of stewartby t shirts with pictures of the area",
+    "file": "content/2023-08-28-note-28-august-2023.html",
     "actions": []
   },
   {
-    "title": "Note — 24 June 2023",
+    "title": "Walking list",
+    "area": "personal",
+    "date": "2023-08-15",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2023-08-15-walking-list.html",
+    "actions": []
+  },
+  {
+    "title": "5 questions",
+    "area": "personal",
+    "date": "2023-08-07",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2023-08-07-5-questions.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "content",
+    "date": "2023-08-07",
+    "snippet": "Use photography to tell the story. Find something that interests me and write about it, shoot it then put it out there",
+    "file": "content/2023-08-07-note-7-august-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2023-07-28",
+    "snippet": "your year the CAS is the one in the front of the engine. Before you do anything else, I would redo the vacuum leak testing with a smoke tester. You can plug it in to a port at the rear of the valve co",
+    "file": "personal/2023-07-28-note-28-july-2023.html",
+    "actions": [
+      {
+        "text": "remove the Throttle Body",
+        "date": null
+      },
+      {
+        "text": "be stable after that",
+        "date": null
+      }
+    ]
+  },
+  {
+    "title": "Note",
+    "area": "work",
+    "date": "2023-07-22",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "work/2023-07-22-note-22-july-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Classic tunes",
+    "area": "personal",
+    "date": "2023-07-21",
+    "snippet": "Hall of the mountains greeg",
+    "file": "personal/2023-07-21-classic-tunes.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2023-07-16",
+    "snippet": "Ldp 12416 numbers order of the letter in the alphabet",
+    "file": "personal/2023-07-16-note-16-july-2023-2.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2023-07-16",
+    "snippet": "Are you one of them? List all the bad people doing things with this line at the end of each one",
+    "file": "personal/2023-07-16-note-16-july-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "content",
+    "date": "2023-07-14",
+    "snippet": "Book about modified cars History From different countries Germany, Japan, uk, usa",
+    "file": "content/2023-07-14-note-14-july-2023.html",
+    "actions": [
+      {
+        "text": "about modified cars",
+        "date": null
+      }
+    ]
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2023-06-24",
-    "snippet": "Get by — brief personal note.",
+    "snippet": "Get by Avici Battle beast",
     "file": "personal/2023-06-24-note-24-june-2023.html",
     "actions": []
   },
   {
-    "title": "Note — 14 June 2023",
+    "title": "12 New Things for 2021",
+    "area": "side-hustle",
+    "date": "2023-06-19",
+    "snippet": "{ background: #fce4ec; color: #c62828; } .note-body { margin-bottom: 32px; } .item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 0; border-bottom: 1px solid #f0f0f0; } .item:last-c",
+    "file": "side-hustle/2023-06-19-12-new-things-2021.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2023-06-14",
-    "snippet": "Go abroad? — brief note.",
+    "snippet": "Go abroad?",
     "file": "personal/2023-06-14-note-14-june-2023.html",
     "actions": []
   },
   {
-    "title": "Note — 24 May 2023",
+    "title": "Note",
+    "area": "personal",
+    "date": "2023-06-13",
+    "snippet": "IKEA Footstool that opens",
+    "file": "personal/2023-06-13-note-13-june-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2023-05-24",
-    "snippet": "Film idea based on British politics, gang-based film. Use Brexit attitudes to shape characters.",
+    "snippet": "Based on British politics, gang based film. Use Brexit attitudes to shape characters.",
     "file": "personal/2023-05-24-note-24-may-2023.html",
     "actions": []
   },
   {
-    "title": "Note — 11 April 2023",
+    "title": "Garage to do list",
+    "area": "personal",
+    "date": "2023-05-20",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2023-05-20-garage-to-do-list.html",
+    "actions": []
+  },
+  {
+    "title": "Docs",
+    "area": "personal",
+    "date": "2023-05-19",
+    "snippet": "Use rope Foot raise Single leg",
+    "file": "personal/2023-05-19-docs.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2023-05-17",
+    "snippet": "Do it want too bea perfect human being? Conforming to all social rules Why not make myself happy",
+    "file": "personal/2023-05-17-note-17-may-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Cyprus car hire",
+    "area": "personal",
+    "date": "2023-05-12",
+    "snippet": "Cliff 0035796099152 21-31 may",
+    "file": "personal/2023-05-12-cyprus-car-hire.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "content",
+    "date": "2023-05-05",
+    "snippet": "Check sums Add tax Shoot over shoulder to something else",
+    "file": "content/2023-05-05-note-5-may-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Dinner",
+    "area": "personal",
+    "date": "2023-04-27",
+    "snippet": "Honey and lemon skewers fish with avocados, cucumbers and pickles beans on 2xtoast with avocados, hot sauce",
+    "file": "personal/2023-04-27-dinner.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "work",
+    "date": "2023-04-13",
+    "snippet": "Title: The Merits of Budgeting Introduction Budgeting is the process of planning and controlling financial resources. It is a way of tracking income and expenses, and making sure that you are not spen",
+    "file": "work/2023-04-13-note-13-april-2023.html",
+    "actions": [
+      {
+        "text": "your budget regularly",
+        "date": null
+      }
+    ]
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2023-04-11",
-    "snippet": "Bottle cap checkers.",
+    "snippet": "Bottle cap checkers Beer bottles when older Can't afford real set",
     "file": "personal/2023-04-11-note-11-april-2023.html",
     "actions": []
   },
   {
-    "title": "Note — 10 April 2023",
+    "title": "Note",
     "area": "personal",
     "date": "2023-04-10",
-    "snippet": "Libgen link saved — book search.",
+    "snippet": "https://libgen.is/search.php?req=paladin+press&open=0&res=25&view=simple&phrase=1&column=def",
     "file": "personal/2023-04-10-note-10-april-2023.html",
     "actions": []
   },
   {
-    "title": "Note — 13 March 2023",
+    "title": "Grill",
+    "area": "personal",
+    "date": "2023-04-05",
+    "snippet": "101 x 36 x 12",
+    "file": "personal/2023-04-05-grill.html",
+    "actions": []
+  },
+  {
+    "title": "Stepwagon fix",
+    "area": "content",
+    "date": "2023-04-04",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "content/2023-04-04-stepwagon-fix.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2023-04-02",
+    "snippet": "https://www.ebay.co.uk/itm/175666766507?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=uL6EV7knQyC&sssrc=2349624&ssuid=uL6EV7knQyC&var=&widget_ver=artemis&media=COPY",
+    "file": "personal/2023-04-02-note-2-april-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Budgeting",
+    "area": "work",
+    "date": "2023-03-31",
+    "snippet": "Sure, here is an outline for a presentation on why a company should have a budget or forecasting: * **Introduction** * What is a budget?",
+    "file": "work/2023-03-31-budgeting.html",
+    "actions": [
+      {
+        "text": "have a budget or forecasting:",
+        "date": null
+      }
+    ]
+  },
+  {
+    "title": "Credit control",
+    "area": "work",
+    "date": "2023-03-31",
+    "snippet": "Sure, here is an outline for a presentation on why a company should have a credit control policy: * Introduction: What is a credit control policy? * Why do companies need a credit control policy?",
+    "file": "work/2023-03-31-credit-control.html",
+    "actions": [
+      {
+        "text": "have a credit control policy:",
+        "date": null
+      },
+      {
+        "text": "be trained on the company's credit control policy",
+        "date": null
+      },
+      {
+        "text": "be fair to both the company and its customers",
+        "date": null
+      }
+    ]
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2023-03-13",
-    "snippet": "Pay mortgage early calculation.",
+    "snippet": "Pay mortgage early calculation Sex list Sex no penetrating",
     "file": "personal/2023-03-13-note-13-march-2023.html",
     "actions": []
   },
   {
-    "title": "Note — 1 February 2023",
+    "title": "meal ideas - need air fryer and spiralizer",
+    "area": "personal",
+    "date": "2023-02-18",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2023-02-18-meal-ideas-need-air-fryer-and-spiralizer.html",
+    "actions": []
+  },
+  {
+    "title": "Horse song",
+    "area": "personal",
+    "date": "2023-02-08",
+    "snippet": "Million bucks, Herd of me Steer clear of me",
+    "file": "personal/2023-02-08-horse-song.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2023-02-08",
+    "snippet": "Talk to random people locals Get stories, write book",
+    "file": "personal/2023-02-08-note-8-february-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2023-02-07",
+    "snippet": "https://sankeymatic.com/build/",
+    "file": "personal/2023-02-07-note-7-february-2023.html",
+    "actions": []
+  },
+  {
+    "title": "Alfred",
+    "area": "personal",
+    "date": "2023-02-06",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2023-02-06-alfred.html",
+    "actions": []
+  },
+  {
+    "title": "Best Barbell Complex for Insane Fat Loss | BOXROX",
+    "area": "personal",
+    "date": "2023-02-05",
+    "snippet": "https://www.boxrox.com/2023-best-barbell-complex-for-insane-fat-loss/",
+    "file": "personal/2023-02-05-best-barbell-complex-for-insane-fat-loss-boxrox.html",
+    "actions": []
+  },
+  {
+    "title": "Xmas presents",
+    "area": "personal",
+    "date": "2023-02-03",
+    "snippet": "Louis's Books - Shoe dog",
+    "file": "personal/2023-02-03-xmas-presents.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2023-02-01",
-    "snippet": "Saved link — colour reference for Rota GRI wheels.",
+    "snippet": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.civinfo.com%2Fthreads%2Fwhat-colour-should-i-paint-my-rota-grids.105277%2F&psig=AOvVaw0IapXw27-03KJbNIogshp4&ust=1675338886385000&source=images&cd",
     "file": "personal/2023-02-01-note-1-february-2023.html",
     "actions": []
   },
   {
-    "title": "Note — 26 January 2023",
+    "title": "My partner has been depressed for years, but won’t seek help | Ask Philippa | Depression | The Guardian",
+    "area": "personal",
+    "date": "2023-01-31",
+    "snippet": "https://www.theguardian.com/lifeandstyle/2023/jan/01/my-partner-has-been-depressed-for-years-but-wont-seek-help",
+    "file": "personal/2023-01-31-my-partner-has-been-depressed-for-years-but-wont-seek-help-a.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2023-01-26",
-    "snippet": "Charge of the Light Brigade.",
+    "snippet": "Charge of the light brigade",
     "file": "personal/2023-01-26-note-26-january-2023.html",
     "actions": []
   },
   {
-    "title": "Note — 26 December 2022",
+    "title": "Bathroom",
+    "area": "personal",
+    "date": "2023-01-18",
+    "snippet": "Radiator wall 135cm Sink wall 140cm Behind door 45cm",
+    "file": "personal/2023-01-18-bathroom.html",
+    "actions": []
+  },
+  {
+    "title": "Buildings",
+    "area": "personal",
+    "date": "2023-01-09",
+    "snippet": "dag brondberg base Secret nazi structure in poland Blast proof buildings",
+    "file": "personal/2023-01-09-buildings.html",
+    "actions": []
+  },
+  {
+    "title": "Street triple to life",
+    "area": "personal",
+    "date": "2023-01-08",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2023-01-08-street-triple-to-life.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2022-12-28",
+    "snippet": "https://simplepdf.eu/",
+    "file": "personal/2022-12-28-note-28-december-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2022-12-26",
-    "snippet": "Marching tortoise.",
+    "snippet": "Marching tortoise",
     "file": "personal/2022-12-26-note-26-december-2022.html",
     "actions": []
   },
   {
-    "title": "Note — 10 December 2022",
+    "title": "Things Isabelle says",
+    "area": "personal",
+    "date": "2022-12-26",
+    "snippet": "You're ridiculous I'm not talking to you anymore",
+    "file": "personal/2022-12-26-things-isabelle-says.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2022-12-12",
+    "snippet": "Brigantia, goddess York",
+    "file": "personal/2022-12-12-note-12-december-2022.html",
+    "actions": []
+  },
+  {
+    "title": "The UK's best biker cafés of 2019 | MCN",
+    "area": "personal",
+    "date": "2022-12-12",
+    "snippet": "https://www.motorcyclenews.com/advice/best/biker-cafes-uk/",
+    "file": "personal/2022-12-12-the-uks-best-biker-cafs-of-2019-mcn.html",
+    "actions": []
+  },
+  {
+    "title": "Kira Liv / KiraLiv1 / kira-liv / kira_liv_backup Nude Leaks OnlyFans - Fapello",
+    "area": "personal",
+    "date": "2022-12-11",
+    "snippet": "https://fapello.com/kira-liv/to",
+    "file": "personal/2022-12-11-kira-liv-kiraliv1-kira-liv-kiralivbackup-nude-leaks-onlyfans.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2022-12-10",
-    "snippet": "No Biggie.",
+    "snippet": "No Biggie",
     "file": "personal/2022-12-10-note-10-december-2022.html",
     "actions": []
   },
   {
-    "title": "Note — 28 November 2022",
+    "title": "Note",
     "area": "personal",
     "date": "2022-11-28",
-    "snippet": "Black tones.",
+    "snippet": "Black tones Levelers",
     "file": "personal/2022-11-28-note-28-november-2022.html",
     "actions": []
   },
   {
-    "title": "Note — 15 November 2022",
+    "title": "25 Sitting Poses for Photos: How to Pose Sitting Down",
+    "area": "content",
+    "date": "2022-11-21",
+    "snippet": "https://www.imaginated.com/blog/sitting-poses/",
+    "file": "content/2022-11-21-25-sitting-poses-for-photos-how-to-pose-sitting-down.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2022-11-15",
-    "snippet": "Veridia.",
+    "snippet": "Veridia This song is for you March, put one foot in front of the other",
     "file": "personal/2022-11-15-note-15-november-2022.html",
     "actions": []
   },
   {
-    "title": "Note — 2 November 2022",
+    "title": "Note",
     "area": "personal",
     "date": "2022-11-02",
-    "snippet": "Louis 14 heart eaten.",
+    "snippet": "Louis 14 heart eaten Body dissolved in lime, no memories of the person. Such a tragedy",
     "file": "personal/2022-11-02-note-2-november-2022.html",
     "actions": []
   },
   {
-    "title": "Note — 4 May 2022",
+    "title": "Note",
+    "area": "content",
+    "date": "2022-10-30",
+    "snippet": "Writing blog Research books that have features in talking about Go to locations to blog about different things, people, characters, plots etc",
+    "file": "content/2022-10-30-note-30-october-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "content",
+    "date": "2022-10-28",
+    "snippet": "Take a look at http://www.youtube.com/watch?v=H5v3kku4y6Q&list=PLKUA473MWUv2jmkqIxzQR3YL4kuPArj4G I used Google Assistant to recognise this song that was playing in the background.",
+    "file": "content/2022-10-28-note-28-october-2022.html",
+    "actions": []
+  },
+  {
+    "title": "How to do colour grading: get cinematic shots - Amateur Photographer",
+    "area": "content",
+    "date": "2022-10-16",
+    "snippet": "https://www.amateurphotographer.co.uk/technique/photo_editing/how-to-do-colour-grading-176182",
+    "file": "content/2022-10-16-how-to-do-colour-grading-get-cinematic-shots-amateur-photogr.html",
+    "actions": [
+      {
+        "text": "colour-grading-176182",
+        "date": null
+      }
+    ]
+  },
+  {
+    "title": "Photography — reference links | 16 Oct 2022",
+    "area": "content",
+    "date": "2022-10-16",
+    "snippet": "Migrated from Notion — original notes dated 2022.",
+    "file": "content/2022-10-16-photography-references.html",
+    "actions": []
+  },
+  {
+    "title": "N.o.r.d.",
+    "area": "personal",
+    "date": "2022-10-11",
+    "snippet": "95EMTFNH R9QAL8TC SSTXAUQL",
+    "file": "personal/2022-10-11-nord.html",
+    "actions": []
+  },
+  {
+    "title": "Alfred",
+    "area": "personal",
+    "date": "2022-10-10",
+    "snippet": "Jollyphonic songs Action to sound",
+    "file": "personal/2022-10-10-alfred.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "work",
+    "date": "2022-10-07",
+    "snippet": "JwPersonalTrainingLuton@hotmail.com Dropbox The dropbox login is",
+    "file": "work/2022-10-07-note-7-october-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Alfred school clothes list",
+    "area": "personal",
+    "date": "2022-09-16",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2022-09-16-alfred-school-clothes-list.html",
+    "actions": []
+  },
+  {
+    "title": "Photo udemy",
+    "area": "content",
+    "date": "2022-09-11",
+    "snippet": "magnet:?xt=urn:btih:49DFEF2A766CA2BA64F7404AC33CCF59C484B91E&dn=Udemy%20-%20Photography%20Masterclass%3A%20A%20Complete%20Guide%20to%20Photography&tr=udp%3A%2F%2F185.193.125.139%3A6969%2Fannounce&tr=u",
+    "file": "content/2022-09-11-photo-udemy.html",
+    "actions": []
+  },
+  {
+    "title": "Content ideas — early notes | 31 Aug 2022",
+    "area": "content",
+    "date": "2022-08-31",
+    "snippet": "Early thoughts on content directions — brief notes captured before a more structured content plan was in place. Migrated from Notion — original note dated 31 August 2022. Originally an untitled timest",
+    "file": "content/2022-08-31-content-ideas-early.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "content",
+    "date": "2022-08-31",
+    "snippet": "Document book writing Go pro Social media",
+    "file": "content/2022-08-31-note-31-august-2022.html",
+    "actions": []
+  },
+  {
+    "title": "K gifts",
+    "area": "personal",
+    "date": "2022-08-30",
+    "snippet": "Pearl ring Indian cookery class birthday cake",
+    "file": "personal/2022-08-30-k-gifts.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2022-08-05",
+    "snippet": "Only fans for women, Mike the mechanic, doing DIY shirt off Build up to pants Bum etc",
+    "file": "personal/2022-08-05-note-5-august-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "work",
+    "date": "2022-06-20",
+    "snippet": "On train, catching up with old friend. Can't quite remember her .she remembers me.. reminds me of something that happened in the past. I want to remember but cant quite. She talks as we move through t",
+    "file": "work/2022-06-20-note-20-june-2022.html",
+    "actions": []
+  },
+  {
+    "title": "SWEDISH MASSAGE | Mysite",
+    "area": "personal",
+    "date": "2022-06-16",
+    "snippet": "https://www.lilysoaktree.com/services",
+    "file": "personal/2022-06-16-swedish-massage-mysite.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2022-05-18",
+    "snippet": "Why would someone get involved with pranks for crime? Would it be an escalation of something Not the typical trope of a young life destroyed by bad parenting. What about something else?",
+    "file": "personal/2022-05-18-note-18-may-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2022-05-14",
+    "snippet": "Adult animal t shirts print",
+    "file": "personal/2022-05-14-note-14-may-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2022-05-04",
-    "snippet": "A triumph — a parade through the streets to celebrate a victory in war.",
+    "snippet": "A triumph - a parade through the streets to celebrate a victory in war. Conquered an enemy that has not been part of the empire",
     "file": "personal/2022-05-04-note-4-may-2022.html",
     "actions": []
   },
   {
-    "title": "Note — 6 April 2022",
+    "title": "Ca",
+    "area": "personal",
+    "date": "2022-04-22",
+    "snippet": "https://cyberdrop.me/a/QRLJKzWh https://gofile.io/d/XLBq8Q https://gofile.io/d/E2Msod",
+    "file": "personal/2022-04-22-ca.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2022-04-06",
-    "snippet": "Name band F.I.S.H.",
+    "snippet": "Name band F.i.s.h. What does it stand for?",
     "file": "personal/2022-04-06-note-6-april-2022.html",
     "actions": []
   },
   {
-    "title": "Note — 19 February 2022",
+    "title": "Note",
+    "area": "personal",
+    "date": "2022-03-28",
+    "snippet": "Surviving whatever challenges they had coming, that was the glue between them, not love",
+    "file": "personal/2022-03-28-note-28-march-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2022-03-13",
+    "snippet": "Crazy Maisy and easy louesy",
+    "file": "personal/2022-03-13-note-13-march-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2022-03-10",
+    "snippet": "Quiz show intros to songs",
+    "file": "personal/2022-03-10-note-10-march-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2022-02-22",
+    "snippet": "Do I know how to be a role model to my kids? What makes me think I know right from wrong Do my beliefs agree with the right way to deal with situations?",
+    "file": "personal/2022-02-22-note-22-february-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Full Body Deadlift Warmup | Prep Properly for Strong Pulls | BarBend",
+    "area": "personal",
+    "date": "2022-02-20",
+    "snippet": "https://barbend.com/deadlift-warmup/",
+    "file": "personal/2022-02-20-full-body-deadlift-warmup-prep-properly-for-strong-pulls-bar.html",
+    "actions": []
+  },
+  {
+    "title": "How to Build a DIY Workout Bench Press - TheDIYPlan",
+    "area": "personal",
+    "date": "2022-02-20",
+    "snippet": "https://thediyplan.com/diy-workout-bench-press/",
+    "file": "personal/2022-02-20-how-to-build-a-diy-workout-bench-press-thediyplan.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2022-02-19",
-    "snippet": "When I hear your bars, I just cry inside.",
+    "snippet": "When I hear your bars, I just cry inside Is that the best you can do, did you even try If-there-was-a-test-for-lyrics, you would get a f",
     "file": "personal/2022-02-19-note-19-february-2022.html",
-    "actions": []
+    "actions": [
+      {
+        "text": "this with some final words",
+        "date": null
+      },
+      {
+        "text": "be the forgery",
+        "date": null
+      }
+    ]
   },
   {
-    "title": "Note — 11 January 2022",
+    "title": "Men's Blizzard Fighter™ Long Jacket | Columbia Sportswear",
     "area": "personal",
-    "date": "2022-01-11",
-    "snippet": "Scene starts with a man can through a bar, drunk, slurring, cursing the bartender.",
-    "file": "personal/2022-01-11-note-11-january-2022.html",
+    "date": "2022-02-12",
+    "snippet": "https://www.columbiasportswear.co.uk/p/mens-blizzard-fighter-long-jacket-1917401.html",
+    "file": "personal/2022-02-12-mens-blizzard-fighter-long-jacket-columbia-sportswear.html",
     "actions": []
   },
   {
-    "title": "Note — 15 January 2022",
+    "title": "Note",
+    "area": "personal",
+    "date": "2022-01-21",
+    "snippet": "Woman cutting her own hair Scary Change attitude",
+    "file": "personal/2022-01-21-note-21-january-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2022-01-18",
+    "snippet": "Waiting for life to happen to me",
+    "file": "personal/2022-01-18-note-18-january-2022.html",
+    "actions": []
+  },
+  {
+    "title": "‘Bedfordshire dream’ – the B660",
+    "area": "personal",
+    "date": "2022-01-17",
+    "snippet": "‘Bedfordshire dream’ – the B660 Blink and you’d easily miss it, simply because the B660, which has been elevated to almost celebrity status due to its popularity with motorcycling magazines in nearby",
+    "file": "personal/2022-01-17-bedfordshire-dream-the-b660.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2022-01-15",
-    "snippet": "Girl wearing loads of layers of clothes.",
+    "snippet": "Girl wearing loads of layers of clothes",
     "file": "personal/2022-01-15-note-15-january-2022.html",
     "actions": []
   },
   {
-    "title": "Note — 23 December 2021",
+    "title": "Note",
+    "area": "personal",
+    "date": "2022-01-11",
+    "snippet": "Scene starts with a man can through a bar, drunk, slurring, cursing the bar tender, drinking other people's drinks and then heading outside in the snow. Outside he walks between and over cars Somethin",
+    "file": "personal/2022-01-11-note-11-january-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2022-01-04",
+    "snippet": "O don't care if she eats toast off the floor I don't care if she got a spot Ty bum",
+    "file": "personal/2022-01-04-note-4-january-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Birthdays",
+    "area": "personal",
+    "date": "2022-01-03",
+    "snippet": "Buy dad football tickets for birthday Find out when Josh Dixon birthday is",
+    "file": "personal/2022-01-03-birthdays.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2022-01-03",
+    "snippet": "Heads or tails, it's fifty fifty",
+    "file": "personal/2022-01-03-note-3-january-2022.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2021-12-27",
+    "snippet": "Need human touch",
+    "file": "personal/2021-12-27-note-27-december-2021.html",
+    "actions": []
+  },
+  {
+    "title": "Genre",
+    "area": "personal",
+    "date": "2021-12-26",
+    "snippet": "Mediaeval bass",
+    "file": "personal/2021-12-26-genre.html",
+    "actions": []
+  },
+  {
+    "title": "25 Healthy Things To Eat For The Get-Fit Challenge",
+    "area": "personal",
+    "date": "2021-12-25",
+    "snippet": "https://www.buzzfeed.com/christinebyrne/get-fit-food",
+    "file": "personal/2021-12-25-25-healthy-things-to-eat-for-the-get-fit-challenge.html",
+    "actions": []
+  },
+  {
+    "title": "Links",
+    "area": "personal",
+    "date": "2021-12-25",
+    "snippet": "Site inspire Font s",
+    "file": "personal/2021-12-25-links.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2021-12-23",
-    "snippet": "Saved link.",
+    "snippet": "chrome-distiller://2e87a8ba-082a-4b90-b248-59f01f3f8999_43c68400977fcc2bfef172d53a9fb077c6d82eae569b6c191d08eebe46e24634/?title=Philip+K.+Dick%3A+How+to+Build+a+Universe+That+Doesn%27t+Fall+Apart+Two+",
     "file": "personal/2021-12-23-note-23-december-2021.html",
     "actions": []
   },
   {
-    "title": "Note — 18 November 2021",
+    "title": "How to make NFTs | A guide to creating your own art | Alternative Press",
+    "area": "personal",
+    "date": "2021-12-10",
+    "snippet": "https://www.altpress.com/features/how-to-make-nfts/",
+    "file": "personal/2021-12-10-how-to-make-nfts-a-guide-to-creating-your-own-art-alternativ.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2021-12-09",
+    "snippet": "Buy onesie",
+    "file": "personal/2021-12-09-note-9-december-2021.html",
+    "actions": []
+  },
+  {
+    "title": "What?",
+    "area": "personal",
+    "date": "2021-11-23",
+    "snippet": "Female acceptance in society past 100 years",
+    "file": "personal/2021-11-23-what.html",
+    "actions": []
+  },
+  {
+    "title": "License plate for dad",
+    "area": "personal",
+    "date": "2021-11-21",
+    "snippet": "J99aae V99eba",
+    "file": "personal/2021-11-21-license-plate-for-dad.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2021-11-18",
-    "snippet": "Saved link — appmoviehd.info",
+    "snippet": "https://appmoviehd.info/",
     "file": "personal/2021-11-18-note-18-november-2021.html",
     "actions": []
   },
   {
-    "title": "Note — 6 November 2021",
+    "title": "How To Install An M45 Supercharger On Your 89-05 Mazda MX-5 | Mazda MX-5 Performance Parts | BOFI Racing",
+    "area": "content",
+    "date": "2021-11-14",
+    "snippet": "https://bofiracing.co.uk/blog/how-install-an-m45-supercharger-on-your-89-05-mazda-mx-5/",
+    "file": "content/2021-11-14-how-to-install-an-m45-supercharger-on-your-89-05-mazda-mx-5.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2021-11-06",
-    "snippet": "Brief personal note.",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
     "file": "personal/2021-11-06-note-6-november-2021.html",
     "actions": []
   },
   {
-    "title": "Note — 30 September 2021",
+    "title": "Yahoo! Auctions! --IG 0665 1/18 Eunos Roadster (NA) Black Igni ...",
+    "area": "personal",
+    "date": "2021-11-06",
+    "snippet": "https://page.auctions.yahoo.co.jp/jp/auction/b568349960",
+    "file": "personal/2021-11-06-yahoo-auctions-ig-0665-118-eunos-roadster-na-black-igni.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2021-10-22",
+    "snippet": "https://missionwife.wordpress.com/2012/08/05/10-things-sex/",
+    "file": "personal/2021-10-22-note-22-october-2021.html",
+    "actions": []
+  },
+  {
+    "title": "Chicken murg and sweet potato sabzi: Romy Gill’s easy curry recipes for students | Food | The Guardian",
+    "area": "personal",
+    "date": "2021-10-19",
+    "snippet": "https://www.theguardian.com/food/2021/oct/19/romy-gill-easy-curry-recipes-tamatar-murg-chicken-coconut-sweet-potato-pea-sabzi",
+    "file": "personal/2021-10-19-chicken-murg-and-sweet-potato-sabzi-romy-gills-easy-curry-re.html",
+    "actions": []
+  },
+  {
+    "title": "Jobs",
+    "area": "personal",
+    "date": "2021-10-12",
+    "snippet": "Private chef go into people's house and cook their dinner",
+    "file": "personal/2021-10-12-jobs.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2021-10-12",
+    "snippet": "Family song",
+    "file": "personal/2021-10-12-note-12-october-2021-2.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2021-10-12",
+    "snippet": "I'm emotional when I watch sport I'm into I cry when I'm alone I really love the kids but I don't love parenting",
+    "file": "personal/2021-10-12-note-12-october-2021.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2021-10-08",
+    "snippet": "When you die how do you want to be remembered? The guy who worked hard all his life for someone else, for shareholders, for someone else's profit? The guy who created art, made people smile,made peopl",
+    "file": "personal/2021-10-08-note-8-october-2021.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2021-09-30",
-    "snippet": "Reorganise money.",
+    "snippet": "Reorganize money Break from living together",
     "file": "personal/2021-09-30-note-30-september-2021.html",
     "actions": []
   },
   {
-    "title": "Note — 17 March 2021",
+    "title": "house  stuff",
+    "area": "personal",
+    "date": "2021-09-26",
+    "snippet": "floor sealant replace hallway flooring kitchen cabinets after flood",
+    "file": "personal/2021-09-26-house-stuff.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2021-09-24",
+    "snippet": "I'm not dead yet I'm not dead yet I'm not dead yet",
+    "file": "personal/2021-09-24-note-24-september-2021.html",
+    "actions": []
+  },
+  {
+    "title": "Places to visit",
+    "area": "personal",
+    "date": "2021-09-20",
+    "snippet": "Fuel coffee shop, bn5 9xh",
+    "file": "personal/2021-09-20-places-to-visit.html",
+    "actions": []
+  },
+  {
+    "title": "Suit sizing",
+    "area": "personal",
+    "date": "2021-07-31",
+    "snippet": "Height 5'6\" Weight 80kg Chest 42",
+    "file": "personal/2021-07-31-suit-sizing.html",
+    "actions": []
+  },
+  {
+    "title": "Stepwagon colour rp37p black amethyst",
+    "area": "personal",
+    "date": "2021-07-17",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2021-07-17-stepwagon-colour-rp37p-black-amethyst.html",
+    "actions": []
+  },
+  {
+    "title": "Weight",
+    "area": "personal",
+    "date": "2021-07-17",
+    "snippet": "85 83 82",
+    "file": "personal/2021-07-17-weight.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2021-07-15",
+    "snippet": "BMW 15.5 WB10E2104LZ197098",
+    "file": "personal/2021-07-15-note-15-july-2021.html",
+    "actions": []
+  },
+  {
+    "title": "Story",
+    "area": "personal",
+    "date": "2021-07-05",
+    "snippet": "Transport kids in the morning on those little robots that deliver shopping in mk. Kids get dropped off wherever they need to go, nursery , school etc. One kid breaks out and has an adventure",
+    "file": "personal/2021-07-05-story.html",
+    "actions": [
+      {
+        "text": "go, nursery , school etc",
+        "date": null
+      }
+    ]
+  },
+  {
+    "title": "T shirt",
+    "area": "personal",
+    "date": "2021-06-28",
+    "snippet": "Every day is fight day",
+    "file": "personal/2021-06-28-t-shirt.html",
+    "actions": []
+  },
+  {
+    "title": "Alfred story",
+    "area": "personal",
+    "date": "2021-06-19",
+    "snippet": "The legend said the secret door can vanish and reappear somewhere Need a password 2 sides to it",
+    "file": "personal/2021-06-19-alfred-story.html",
+    "actions": []
+  },
+  {
+    "title": "Stewartby contacts | 12 Jun 2021",
+    "area": "personal",
+    "date": "2021-06-12",
+    "snippet": "Migrated from Notion — originally filed under Photography & Video.",
+    "file": "personal/2021-06-12-stewartby-contacts.html",
+    "actions": []
+  },
+  {
+    "title": "Stewartby",
+    "area": "content",
+    "date": "2021-06-12",
+    "snippet": "Keith and Sarah Ashley and Amy Emmanuel and Lissa",
+    "file": "content/2021-06-12-stewartby.html",
+    "actions": []
+  },
+  {
+    "title": "Thursday",
+    "area": "content",
+    "date": "2021-05-24",
+    "snippet": "Print CSS book Tub for filament Print battery dispenser and need fabric for camera cover",
+    "file": "content/2021-05-24-thursday.html",
+    "actions": []
+  },
+  {
+    "title": "addresses",
+    "area": "content",
+    "date": "2021-05-20",
+    "snippet": "14 sunset red meadow, stewartby, mk439sl 11 Buttermere close, mk42 8ju 38, LOMBARD ST, BEDFORD, BEDS, MK430RP",
+    "file": "content/2021-05-20-addresses.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2021-05-08",
+    "snippet": "brushing your teeth with beef combing your hair with pears washing your face in space",
+    "file": "personal/2021-05-08-note-8-may-2021.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "work",
+    "date": "2021-04-13",
+    "snippet": "Mock tribunal 2016 cipd April 2016 Prince 2 foundation Professional ethics course ACCA 2012",
+    "file": "work/2021-04-13-note-13-april-2021.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2021-03-17",
-    "snippet": "Lead.",
+    "snippet": "Lead Ignite Disappear",
     "file": "personal/2021-03-17-note-17-march-2021.html",
     "actions": []
   },
   {
-    "title": "Note — 28 January 2021",
+    "title": "House",
+    "area": "personal",
+    "date": "2021-03-07",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2021-03-07-house.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2021-03-07",
+    "snippet": "#honda #accord #cl7 #euror #cl9 #jdm #k20 #k24 #acuratsx #mugen #mugenpower #teamdynamics #prorace #vtec #type r",
+    "file": "personal/2021-03-07-note-7-march-2021.html",
+    "actions": []
+  },
+  {
+    "title": "Water damage",
+    "area": "personal",
+    "date": "2021-02-11",
+    "snippet": "Tom back tomorrow Assess what needs to be replaced Need new kitchen bits",
+    "file": "personal/2021-02-11-water-damage.html",
+    "actions": []
+  },
+  {
+    "title": "Key",
+    "area": "personal",
+    "date": "2021-02-05",
+    "snippet": "uAxqhgHfyYo6p10Lg6fQkA",
+    "file": "personal/2021-02-05-key.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2021-01-28",
-    "snippet": "Pandemic lockdown vs breakdown.",
+    "snippet": "Pandemic lockdown Vs break down Tier system Only select shops open",
     "file": "personal/2021-01-28-note-28-january-2021.html",
     "actions": []
   },
   {
-    "title": "Car wrapping note",
+    "title": "sonic scratch",
     "area": "personal",
-    "date": "2020-10-17",
-    "snippet": "X graphics for car wrap. We wrap any car — £220.",
-    "file": "personal/2020-10-17-wrapping.html",
+    "date": "2021-01-28",
+    "snippet": "78895836",
+    "file": "personal/2021-01-28-sonic-scratch.html",
     "actions": []
   },
   {
-    "title": "Note — 2 November 2020",
+    "title": "Writing Program",
+    "area": "personal",
+    "date": "2020-12-13",
+    "snippet": "http://rlstine.com/writing-program",
+    "file": "personal/2020-12-13-writing-program.html",
+    "actions": []
+  },
+  {
+    "title": "Set up Chrome Browser Extension | Raspberry Pi Pedal for Youtube | Adafruit Learning System",
+    "area": "content",
+    "date": "2020-12-03",
+    "snippet": "https://learn.adafruit.com/raspberry-pi-pedal-for-youtube/set-up-chrome-browser-extension",
+    "file": "content/2020-12-03-set-up-chrome-browser-extension-raspberry-pi-pedal-for-youtu.html",
+    "actions": []
+  },
+  {
+    "title": "F rated",
+    "area": "personal",
+    "date": "2020-11-13",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2020-11-13-f-rated.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2020-11-02",
-    "snippet": "Brief personal note.",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
     "file": "personal/2020-11-02-note-2-november-2020.html",
     "actions": []
   },
   {
-    "title": "Note — 5 September 2020",
+    "title": "eBay ad",
+    "area": "personal",
+    "date": "2020-10-23",
+    "snippet": "Honda Accord type R Callipers, cu2, cw2, 2.4 JDM. Will fit many honda,s. Grear upgarde form single pot callipers, have read that people have put these onto ek,s, integers, ep3,s and others but a small",
+    "file": "personal/2020-10-23-ebay-ad.html",
+    "actions": [
+      {
+        "text": "get new ones",
+        "date": null
+      }
+    ]
+  },
+  {
+    "title": "Webmail",
+    "area": "personal",
+    "date": "2020-10-23",
+    "snippet": "Mail.ig-uk.com Email Le2018le;",
+    "file": "personal/2020-10-23-webmail.html",
+    "actions": []
+  },
+  {
+    "title": "wrapping",
+    "area": "personal",
+    "date": "2020-10-17",
+    "snippet": "x graphics for car wrap we wrap any car  £220",
+    "file": "personal/2020-10-17-wrapping.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2020-10-04",
+    "snippet": "15 kiln drive 350 may 2016 20 randall lane 290 may 2016 13 kiln drive 342 June 2016",
+    "file": "personal/2020-10-04-note-4-october-2020.html",
+    "actions": []
+  },
+  {
+    "title": "Theme park goers",
+    "area": "personal",
+    "date": "2020-09-26",
+    "snippet": "A table of goths, Foreign language family, mum telling kid off loudly in bosnian Dad with pink backpack, 2 kid eating ice cream, mum sipping coffee",
+    "file": "personal/2020-09-26-theme-park-goers.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2020-09-05",
-    "snippet": "If you want things to change, start by changing yourself. Story idea: Wendy, dead-end job, meets a man, discovers strength.",
+    "snippet": "If you want things to change, start by changing yourself Wendy dead end job, needz money Meets man, gets her intrigued about herself",
     "file": "personal/2020-09-05-note-5-september-2020.html",
     "actions": []
   },
   {
-    "title": "Note — 1 June 2020",
+    "title": "Mae Hong san",
+    "area": "personal",
+    "date": "2020-08-08",
+    "snippet": "City of 3 mists",
+    "file": "personal/2020-08-08-mae-hong-san.html",
+    "actions": []
+  },
+  {
+    "title": "Story idea",
+    "area": "personal",
+    "date": "2020-07-30",
+    "snippet": "Code breakers",
+    "file": "personal/2020-07-30-story-idea.html",
+    "actions": []
+  },
+  {
+    "title": "Story idea",
+    "area": "personal",
+    "date": "2020-07-05",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2020-07-05-story-idea.html",
+    "actions": []
+  },
+  {
+    "title": "numbers for tax self assessment",
+    "area": "personal",
+    "date": "2020-07-03",
+    "snippet": "UTR 1595344747 government gateway 640395248882",
+    "file": "personal/2020-07-03-numbers-for-tax-self-assessment.html",
+    "actions": []
+  },
+  {
+    "title": "The meaning of suffering",
+    "area": "personal",
+    "date": "2020-06-28",
+    "snippet": "Having kids is good but the sacrifice is the pain to bring them up The personality change of my wife The loss of freedom of action",
+    "file": "personal/2020-06-28-the-meaning-of-suffering.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2020-06-01",
-    "snippet": "Listen to my song when you don't cry.",
+    "snippet": "listen to my song when you dont cry",
     "file": "personal/2020-06-01-note-1-june-2020.html",
     "actions": []
   },
   {
-    "title": "Note — 6 May 2020",
+    "title": "The Last Question -- Isaac Asimov",
+    "area": "personal",
+    "date": "2020-05-30",
+    "snippet": "https://www.multivax.com/last_question.html",
+    "file": "personal/2020-05-30-the-last-question-isaac-asimov.html",
+    "actions": []
+  },
+  {
+    "title": "Honda Integra Type R DC5 Buying Guide & History - 2020 - Garage Dreams",
+    "area": "personal",
+    "date": "2020-05-15",
+    "snippet": "https://garagedreams.net/buyers-guide/honda-integra-type-r-dc5-buying-guide-history-2020",
+    "file": "personal/2020-05-15-honda-integra-type-r-dc5-buying-guide-history-2020-garage-dr.html",
+    "actions": []
+  },
+  {
+    "title": "Isabelle middle name?",
+    "area": "personal",
+    "date": "2020-05-15",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2020-05-15-isabelle-middle-name.html",
+    "actions": []
+  },
+  {
+    "title": "patio specialist - Google Search",
+    "area": "work",
+    "date": "2020-05-13",
+    "snippet": "https://www.google.com/search?q=patio+specialist&client=tablet-android-google&prmd=simvn&sxsrf=ALeKk03Hb7l6Ye0AhQP0dWkllUQCFRwNEQ:1589398078085&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiB-uaeybHpAhXRolwKH",
+    "file": "work/2020-05-13-patio-specialist-google-search.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2020-05-06",
-    "snippet": "Saved image reference link.",
+    "snippet": "https://images.app.goo.gl/nKZpfZtM2DVacMaY7",
+    "file": "personal/2020-05-06-note-6-may-2020-2.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2020-05-06",
+    "snippet": "https://images.app.goo.gl/ye2RvVn4kEPvAgGc8",
+    "file": "personal/2020-05-06-note-6-may-2020-3.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2020-05-06",
+    "snippet": "https://images.app.goo.gl/gU4ZHpUiMssjjsTMA",
+    "file": "personal/2020-05-06-note-6-may-2020-4.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2020-05-06",
+    "snippet": "https://images.app.goo.gl/F1C3sSkoYVuUFRcG8",
     "file": "personal/2020-05-06-note-6-may-2020.html",
     "actions": []
   },
   {
-    "title": "Journal — 3 August 2019",
+    "title": "Note",
     "area": "personal",
-    "date": "2019-08-03",
-    "snippet": "Reflections after watching Lion King. Motorbike ride in the morning, family afternoon. Questioning identity and authenticity.",
-    "file": "personal/2019-08-03-02082019.html",
+    "date": "2020-04-30",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2020-04-30-note-30-april-2020.html",
     "actions": []
   },
   {
-    "title": "Note — 28 September 2019",
+    "title": "Baby 2 name list",
+    "area": "personal",
+    "date": "2020-04-26",
+    "snippet": "Isabelle Emma Violet",
+    "file": "personal/2020-04-26-baby-2-name-list.html",
+    "actions": []
+  },
+  {
+    "title": "Shed dimensions",
+    "area": "personal",
+    "date": "2020-04-19",
+    "snippet": "170 tall 6ft 140 wide 5ft 100 deep 3ft",
+    "file": "personal/2020-04-19-shed-dimensions.html",
+    "actions": []
+  },
+  {
+    "title": "A story by louis and kara",
+    "area": "work",
+    "date": "2020-03-28",
+    "snippet": "One stormy night, a man was out walking his favourite pet, Gordon the goat. He headed into the woods towards the wood cutters cottage, but oh no, what was that he stood on, he wondered? Alas, Gordon w",
+    "file": "work/2020-03-28-a-story-by-louis-and-kara.html",
+    "actions": []
+  },
+  {
+    "title": "Story",
+    "area": "personal",
+    "date": "2020-03-17",
+    "snippet": "Virus, mutates into super virus short stories based on fortune cookie pulls",
+    "file": "personal/2020-03-17-story.html",
+    "actions": []
+  },
+  {
+    "title": "house notes 26/02",
+    "area": "personal",
+    "date": "2020-02-26",
+    "snippet": "measurements of kitchen thermostat placement upstairs base unit in kitchen removed for dishwasher access",
+    "file": "personal/2020-02-26-house-notes-2602.html",
+    "actions": []
+  },
+  {
+    "title": "School",
+    "area": "personal",
+    "date": "2020-02-26",
+    "snippet": "Alfred Nursery sep 2021, name down already Reception sep 2022, council provide letter, register before jan2022, accepted apr 2022",
+    "file": "personal/2020-02-26-school.html",
+    "actions": []
+  },
+  {
+    "title": "Screenshot shared from Google",
+    "area": "content",
+    "date": "2020-02-08",
+    "snippet": "Screenshot from https://www.amazon.co.uk/Nikon-AF-P-NIKKOR-10-20mm-4-5-5-6G/dp/B072639587/ref=as_li_ss_tl?tag=shotkit-21&keywords=Nikon+10-20mm+f%2f4.5-5.6+DX&qid=1554025017&s=gateway&sr=8-2-fkmrnull&",
+    "file": "content/2020-02-08-screenshot-shared-from-google.html",
+    "actions": []
+  },
+  {
+    "title": "kids book blog",
+    "area": "content",
+    "date": "2020-01-05",
+    "snippet": "https://christinesharp.com/my-12-part-guide-to-writing-and-publishing-picture-books-for-children-know-and-love-your-readers/",
+    "file": "content/2020-01-05-kids-book-blog.html",
+    "actions": []
+  },
+  {
+    "title": "Learn SQL By Using Excel As A Bridge - Towards Data Science",
+    "area": "personal",
+    "date": "2019-12-24",
+    "snippet": "https://towardsdatascience.com/learn-sql-by-using-excel-as-a-bridge-30cea4d314e0",
+    "file": "personal/2019-12-24-learn-sql-by-using-excel-as-a-bridge-towards-data-science.html",
+    "actions": []
+  },
+  {
+    "title": "mortgage docs",
+    "area": "content",
+    "date": "2019-10-05",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "content/2019-10-05-mortgage-docs.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2019-09-28",
-    "snippet": "Life through frames. Book about eyes.",
+    "snippet": "Life through frames. Book about eyes",
     "file": "personal/2019-09-28-note-28-september-2019.html",
-    "actions": []
+    "actions": [
+      {
+        "text": "about eyes",
+        "date": null
+      }
+    ]
   },
   {
-    "title": "Note — 21 September 2019",
+    "title": "Note",
     "area": "personal",
     "date": "2019-09-21",
-    "snippet": "Middle to 1st 4cm / Middle to right 8cm.",
+    "snippet": "Middle to 1st 4cm Middle to r 8cm",
     "file": "personal/2019-09-21-note-21-september-2019.html",
     "actions": []
   },
   {
-    "title": "Note — 19 July 2019",
+    "title": "Annoying couple in restaurant",
+    "area": "personal",
+    "date": "2019-09-16",
+    "snippet": "Complained about everything Steak too burned Fish not seasoned",
+    "file": "personal/2019-09-16-annoying-couple-in-restaurant.html",
+    "actions": []
+  },
+  {
+    "title": "Art idea",
+    "area": "personal",
+    "date": "2019-09-16",
+    "snippet": "Thin blue line wrapped around stuff",
+    "file": "personal/2019-09-16-art-idea.html",
+    "actions": []
+  },
+  {
+    "title": "Characters",
+    "area": "personal",
+    "date": "2019-08-17",
+    "snippet": "Guy with photographic memory, relied on to remember things instead of a computer. Maybe tricked into remembering something that did not happen",
+    "file": "personal/2019-08-17-characters.html",
+    "actions": []
+  },
+  {
+    "title": "Supermassive black hole found to be 40 billion times bigger than the Sun | Science & Tech News | Sky News",
+    "area": "personal",
+    "date": "2019-08-07",
+    "snippet": "https://news.sky.com/story/supermassive-black-hole-found-to-40-billion-times-bigger-than-the-sun-11779241",
+    "file": "personal/2019-08-07-supermassive-black-hole-found-to-be-40-billion-times-bigger.html",
+    "actions": []
+  },
+  {
+    "title": "02/08/2019",
+    "area": "personal",
+    "date": "2019-08-03",
+    "snippet": "Who am I? Just finished watching Lion King and this was a central theme of the movie. It was timely as I've been contemplating this myself over the last few months. Am I hiding my true self in order t",
+    "file": "personal/2019-08-03-02082019.html",
+    "actions": []
+  },
+  {
+    "title": "idea generator",
+    "area": "personal",
+    "date": "2019-07-29",
+    "snippet": "http://www.savethecat.com/tools/need-a-screenplay-idea-try-this-game SAVE THE CAT!® 10 GENRE ELEMENTS AND LOGLINES Monster in the House: Monster, House, Sin",
+    "file": "personal/2019-07-29-idea-generator.html",
+    "actions": [
+      {
+        "text": "learn to undo a spell he wished for before it turns into a curse he can’t undo",
+        "date": null
+      },
+      {
+        "text": "Hero, Counterpart, Complication",
+        "date": null
+      }
+    ]
+  },
+  {
+    "title": "odd job",
+    "area": "personal",
+    "date": "2019-07-28",
+    "snippet": "randomly met a coriander farmer at a footy tournament 3 companies selling stuff on the same farm. famer who owns the land sells to tesco, the rest sell to smaller shops typically asian",
+    "file": "personal/2019-07-28-odd-job.html",
+    "actions": []
+  },
+  {
+    "title": "things alfred says",
+    "area": "personal",
+    "date": "2019-07-28",
+    "snippet": "oh my goodness gracious jesus christ jumps off chair and says 'its funny', i said not its not your going to hurt yourself, he says 'yeah, its a bit funny!'",
+    "file": "personal/2019-07-28-things-alfred-says.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2019-07-22",
+    "snippet": "Story about people who live in the lampposts, similar to boxtrolls",
+    "file": "personal/2019-07-22-note-22-july-2019.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2019-07-19",
-    "snippet": "Kara bday.",
+    "snippet": "Kara bday",
     "file": "personal/2019-07-19-note-19-july-2019.html",
     "actions": []
   },
   {
-    "title": "Note — 16 July 2019",
+    "title": "Note",
     "area": "personal",
     "date": "2019-07-16",
-    "snippet": "Interests list: motorbikes, science, speaking to random people, sports, films, reading, family life, history, culture, cars.",
+    "snippet": "Motorbikes Science Speaking to random people",
     "file": "personal/2019-07-16-note-16-july-2019.html",
     "actions": []
   },
   {
-    "title": "Note — 10 October 2018",
+    "title": "Job description",
+    "area": "work",
+    "date": "2019-07-07",
+    "snippet": "The Key Responsibilities of the Financial Controller will include: 1) Making your customer more successful a. Provide financial governance and support as a business partner b. Deliver solutions to min",
+    "file": "work/2019-07-07-job-description.html",
+    "actions": []
+  },
+  {
+    "title": "Cyber security",
+    "area": "personal",
+    "date": "2019-06-13",
+    "snippet": "Sam at Barclays Clive cyber guy Check out National computing centres",
+    "file": "personal/2019-06-13-cyber-security.html",
+    "actions": [
+      {
+        "text": "out National computing centres",
+        "date": null
+      }
+    ]
+  },
+  {
+    "title": "Stock take process",
+    "area": "work",
+    "date": "2019-03-27",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "work/2019-03-27-stock-take-process.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2019-02-04",
+    "snippet": "https://www.kidspot.com.au/kitchen/recipes/chicken-cheese-and-vegetable-patties-3535",
+    "file": "personal/2019-02-04-note-4-february-2019.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2019-01-13",
+    "snippet": "Black action sci fi fantasy story",
+    "file": "personal/2019-01-13-note-13-january-2019.html",
+    "actions": []
+  },
+  {
+    "title": "Auto wish list",
+    "area": "personal",
+    "date": "2018-12-30",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2018-12-30-auto-wish-list.html",
+    "actions": []
+  },
+  {
+    "title": "Gift ideas",
+    "area": "personal",
+    "date": "2018-12-26",
+    "snippet": "Band t shirts x2 Hotel chocolate Molton brown gift set",
+    "file": "personal/2018-12-26-gift-ideas.html",
+    "actions": []
+  },
+  {
+    "title": "Future brain hack",
+    "area": "personal",
+    "date": "2018-11-23",
+    "snippet": "Humans have the ability to control machines with their minds. Someone figures out a way to hack your thoughts. Can control machines through you",
+    "file": "personal/2018-11-23-future-brain-hack.html",
+    "actions": []
+  },
+  {
+    "title": "Photo spot",
+    "area": "personal",
+    "date": "2018-11-11",
+    "snippet": "Gravel path near Cranfield Morrison's car park mk",
+    "file": "personal/2018-11-11-photo-spot.html",
+    "actions": []
+  },
+  {
+    "title": "Dreaming",
+    "area": "content",
+    "date": "2018-11-11",
+    "snippet": "Woke up thinking about In a lift with me getting a Louis Vuitton pill from a concierge. Flashback to me getting in a tiny lift with Ben Affleck as the man with lv luggage and suit. I grow to his hiegh",
+    "file": "content/2018-11-11-dreaming.html",
+    "actions": []
+  },
+  {
+    "title": "shep pie",
+    "area": "personal",
+    "date": "2018-10-23",
+    "snippet": "1 tbsp sunflower oil 1 large onion, chopped 2-3 medium carrots, chopped",
+    "file": "personal/2018-10-23-shep-pie.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2018-10-10",
-    "snippet": "Rebel in my head.",
+    "snippet": "Rebel in my head",
     "file": "personal/2018-10-10-note-10-october-2018.html",
     "actions": []
   },
   {
-    "title": "Note — 12 June 2018",
+    "title": "CL7 Euro R",
+    "area": "personal",
+    "date": "2018-09-12",
+    "snippet": "http://typeaccord.co.uk/forum/topic/21778-cl7-euro-r-brakes/ vision rear camber arms http://www.oneshift.com/new-cars/car-specs/106/honda-accord-euro-r-cl7",
+    "file": "personal/2018-09-12-cl7-euro-r.html",
+    "actions": []
+  },
+  {
+    "title": "Garden ideas",
+    "area": "personal",
+    "date": "2018-07-21",
+    "snippet": "Flute with tea light in for table Cover for table and chairs Portable inflatable seat",
+    "file": "personal/2018-07-21-garden-ideas.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2018-06-12",
-    "snippet": "Kara's Kindle email address saved.",
+    "snippet": "Kara71080_19b2e3@kindle.com",
     "file": "personal/2018-06-12-note-12-june-2018.html",
     "actions": []
   },
   {
-    "title": "Note — 27 October 2017",
+    "title": "Note",
     "area": "personal",
-    "date": "2017-10-27",
-    "snippet": "Supercharger research link — Mazda Menders forum.",
-    "file": "personal/2017-10-27-note-27-october-2017.html",
+    "date": "2018-03-31",
+    "snippet": "Kara bday gift voucher",
+    "file": "personal/2018-03-31-note-31-march-2018.html",
     "actions": []
   },
   {
-    "title": "Note — 20 July 2017",
-    "area": "personal",
-    "date": "2017-07-20",
-    "snippet": "Rebels.",
-    "file": "personal/2017-07-20-note-20-july-2017.html",
+    "title": "Note",
+    "area": "work",
+    "date": "2017-12-17",
+    "snippet": "0af080b3{\"walletversion\":\"1.0\",\"pindata\":{\"salt\":\"8734f113a5d55cb1ec1222c3b1675e53a7ef36c7\",\"hash\":\"e90cddec11572a7568acb3c4\"},\"ppdata\":{\"salt1\":\"7c7f7092394fdbee9f56e0656262e44955ef02547b8b6d6a9f66b0",
+    "file": "work/2017-12-17-note-17-december-2017-2.html",
     "actions": []
   },
   {
-    "title": "Note — 23 July 2017",
-    "area": "personal",
-    "date": "2017-07-23",
-    "snippet": "Guys walking around with a theme song blaring.",
-    "file": "personal/2017-07-23-note-23-july-2017.html",
-    "actions": []
-  },
-  {
-    "title": "Note — 18 June 2017",
-    "area": "personal",
-    "date": "2017-06-18",
-    "snippet": "Man in a white hat, seating at the back.",
-    "file": "personal/2017-06-18-note-18-june-2017.html",
-    "actions": []
-  },
-  {
-    "title": "Note — 4 February 2017",
-    "area": "personal",
-    "date": "2017-02-04",
-    "snippet": "Hair that starts brown and turns white as the day goes on. Charges up at night back to brown in the morning.",
-    "file": "personal/2017-02-04-note-4-february-2017.html",
-    "actions": []
-  },
-  {
-    "title": "Note — 17 December 2017",
+    "title": "Note",
     "area": "personal",
     "date": "2017-12-17",
-    "snippet": "Passphrase / recovery words saved.",
+    "snippet": "tacha wohe poquu modu lido chusha",
     "file": "personal/2017-12-17-note-17-december-2017.html",
     "actions": []
   },
   {
-    "title": "Note — 22 September 2016",
+    "title": "USS",
+    "area": "personal",
+    "date": "2017-12-07",
+    "snippet": "https://www.google.com/maps/@29.5604556,-95.0854808,3a,75y,293.85h,74.01t/data=!3m6!1e1!3m4!1s3OFiq36cp0IAAAQvxgbyIg!2e0!7i10000!8i5000",
+    "file": "personal/2017-12-07-uss.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2017-10-27",
+    "snippet": "Supercharger research  http://www.mazdamenders.net/forum/viewtopic.php?t=4548",
+    "file": "personal/2017-10-27-note-27-october-2017.html",
+    "actions": []
+  },
+  {
+    "title": "Mid",
+    "area": "personal",
+    "date": "2017-10-12",
+    "snippet": "Orion Willis Lion",
+    "file": "personal/2017-10-12-mid.html",
+    "actions": []
+  },
+  {
+    "title": "Birth plan",
+    "area": "personal",
+    "date": "2017-09-04",
+    "snippet": "Pain relief Gas and air good Pethydin avoid unless 24hr labour and sleepy",
+    "file": "personal/2017-09-04-birth-plan.html",
+    "actions": [
+      {
+        "text": "mums to let them know its on",
+        "date": null
+      }
+    ]
+  },
+  {
+    "title": "Baby names version 2",
+    "area": "personal",
+    "date": "2017-08-19",
+    "snippet": "Genevieve Matilda Violet",
+    "file": "personal/2017-08-19-baby-names-version-2.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2017-07-23",
+    "snippet": "Guys walking around with a theme song blaring",
+    "file": "personal/2017-07-23-note-23-july-2017.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2017-07-20",
+    "snippet": "Rebels",
+    "file": "personal/2017-07-20-note-20-july-2017.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2017-07-08",
+    "snippet": "Rushing train with plinky piano music",
+    "file": "personal/2017-07-08-note-8-july-2017.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2017-06-18",
+    "snippet": "Red, yellow, blue, green Rich, well off, brass, poor Promises made, futures secure",
+    "file": "personal/2017-06-18-note-18-june-2017-2.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2017-06-18",
+    "snippet": "Man in a white hat, seating at the back",
+    "file": "personal/2017-06-18-note-18-june-2017.html",
+    "actions": []
+  },
+  {
+    "title": "The Ultimate Headphones Test",
+    "area": "personal",
+    "date": "2017-06-18",
+    "snippet": "http://www.audiocheck.net/soundtests_headphones.php",
+    "file": "personal/2017-06-18-the-ultimate-headphones-test.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2017-04-10",
+    "snippet": "Adjusting to the ever changing Pace of life",
+    "file": "personal/2017-04-10-note-10-april-2017.html",
+    "actions": []
+  },
+  {
+    "title": "Emotion",
+    "area": "personal",
+    "date": "2017-03-16",
+    "snippet": "Emotion series Laugh, Joy , jumping over you",
+    "file": "personal/2017-03-16-emotion.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2017-02-24",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2017-02-24-note-24-february-2017.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2017-02-04",
+    "snippet": "Heard hair that starts brown and gets white as the day goes on. Charges up at night back to brown in the morning",
+    "file": "personal/2017-02-04-note-4-february-2017.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2017-01-16",
+    "snippet": "Noted how in anime they show stills of normal life. A kitchen with pots cooking, a farm barn with animals etc.. Try to incorporate this into film story",
+    "file": "personal/2017-01-16-note-16-january-2017.html",
+    "actions": []
+  },
+  {
+    "title": "people live here story",
+    "area": "personal",
+    "date": "2017-01-03",
+    "snippet": "mountain land sea",
+    "file": "personal/2017-01-03-people-live-here-story.html",
+    "actions": []
+  },
+  {
+    "title": "Screenshot (27 Nov 2016 9:11:56 a.m.)",
+    "area": "content",
+    "date": "2016-11-28",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "content/2016-11-28-screenshot-27-nov-2016-91156-am.html",
+    "actions": []
+  },
+  {
+    "title": "sizes",
+    "area": "personal",
+    "date": "2016-11-24",
+    "snippet": "what\th\tl\tw pc\t39\t43\t19 server\t28\t28\t21",
+    "file": "personal/2016-11-24-sizes.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2016-11-19",
+    "snippet": "Bellini drink",
+    "file": "personal/2016-11-19-note-19-november-2016.html",
+    "actions": []
+  },
+  {
+    "title": "EP2 Plywood Media Console ‹ HomeMade Modern",
+    "area": "personal",
+    "date": "2016-11-05",
+    "snippet": "http://www.homemade-modern.com/ep02-plywood-media-console/",
+    "file": "personal/2016-11-05-ep2-plywood-media-console-homemade-modern.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2016-10-02",
+    "snippet": "Hoover Tank parts Mirror hooks",
+    "file": "personal/2016-10-02-note-2-october-2016.html",
+    "actions": []
+  },
+  {
+    "title": "803942020",
+    "area": "personal",
+    "date": "2016-10-01",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2016-10-01-803942020.html",
+    "actions": []
+  },
+  {
+    "title": "Kara docs",
+    "area": "personal",
+    "date": "2016-09-27",
+    "snippet": "Folic acid 1 a day 20 min appointment Soft cheese no",
+    "file": "personal/2016-09-27-kara-docs.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2016-09-22",
-    "snippet": "Saved link — interior design life hacks.",
+    "snippet": "http://www.boredpanda.com/interior-design-life-hacks-hiding-eyesores/ 1, 2,5,18,20,21, http://www.apartmenttherapy.com/10-clever-diy-projects-to-hide-household-eyesores-201984",
     "file": "personal/2016-09-22-note-22-september-2016.html",
     "actions": []
   },
   {
-    "title": "Note — 4 July 2016",
+    "title": "story format",
+    "area": "personal",
+    "date": "2016-09-20",
+    "snippet": "Toy Story. Up. Finding Nemo. WALL-E. Pixar is a master at creating not just stunning visuals but stories that resonate with children and adults alike. Although the stars of the studio's movies range f",
+    "file": "personal/2016-09-20-story-format.html",
+    "actions": [
+      {
+        "text": "always be the hero of a sales story",
+        "date": null
+      }
+    ]
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2016-08-20",
+    "snippet": "For dining room in Next shop",
+    "file": "personal/2016-08-20-note-20-august-2016.html",
+    "actions": []
+  },
+  {
+    "title": "car trip 2017??",
+    "area": "personal",
+    "date": "2016-08-11",
+    "snippet": "http://ricorally.co.uk/sept-2017/",
+    "file": "personal/2016-08-11-car-trip-2017.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2016-07-04",
-    "snippet": "Brief personal note.",
+    "snippet": "first birth outside of earth",
+    "file": "personal/2016-07-04-note-4-july-2016-2.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2016-07-04",
+    "snippet": "the and one ending is always another beginning",
     "file": "personal/2016-07-04-note-4-july-2016.html",
     "actions": []
   },
   {
-    "title": "Note — 4 April 2016",
+    "title": "music to download",
+    "area": "personal",
+    "date": "2016-06-28",
+    "snippet": "yoe mase your light",
+    "file": "personal/2016-06-28-music-to-download.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2016-06-02",
+    "snippet": "scooter",
+    "file": "personal/2016-06-02-note-2-june-2016.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2016-05-18",
+    "snippet": "I don't want your love I just want your body",
+    "file": "personal/2016-05-18-note-18-may-2016.html",
+    "actions": []
+  },
+  {
+    "title": "car insurance policy number",
+    "area": "personal",
+    "date": "2016-04-28",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2016-04-28-car-insurance-policy-number.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2016-04-04",
-    "snippet": "Brief personal note.",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
     "file": "personal/2016-04-04-note-4-april-2016.html",
     "actions": []
   },
   {
-    "title": "Note — 22 February 2016",
+    "title": "Fly",
     "area": "personal",
     "date": "2016-02-22",
-    "snippet": "Fascinated like a kid looking through a plane window.",
+    "snippet": "Waiting patiently Moving quickly Body twisting",
+    "file": "personal/2016-02-22-fly.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2016-02-22",
+    "snippet": "Fascinated like a kid looking through a plane window",
     "file": "personal/2016-02-22-note-22-february-2016.html",
     "actions": []
   },
   {
-    "title": "Note — 15 April 2015",
+    "title": "Beach",
     "area": "personal",
-    "date": "2015-04-15",
-    "snippet": "Draw dreams.",
-    "file": "personal/2015-04-15-note-15-april-2015.html",
+    "date": "2016-02-21",
+    "snippet": "The coastline stretched from left to right,so from wide that bob had to turn his head to view it in its entirety.  Picture perfect,  split halfway,  blue water separated green hills from Blue sky. On",
+    "file": "personal/2016-02-21-beach.html",
     "actions": []
   },
   {
-    "title": "Note — 21 February 2015",
+    "title": "Note",
     "area": "personal",
-    "date": "2015-02-21",
-    "snippet": "Rio.",
-    "file": "personal/2015-02-21-note-21-february-2015.html",
+    "date": "2016-01-20",
+    "snippet": "The constant battle between the light and the dark",
+    "file": "personal/2016-01-20-note-20-january-2016.html",
     "actions": []
   },
   {
-    "title": "Note — 15 March 2015",
+    "title": "Note",
     "area": "personal",
-    "date": "2015-03-15",
-    "snippet": "Angry snap — lost it.",
-    "file": "personal/2015-03-15-note-15-march-2015.html",
+    "date": "2015-12-10",
+    "snippet": "10 word story",
+    "file": "personal/2015-12-10-note-10-december-2015.html",
     "actions": []
   },
   {
-    "title": "Note — 15 March 2015 (2)",
+    "title": "Song",
     "area": "personal",
-    "date": "2015-03-15",
-    "snippet": "You're pacing, frustrating, basing casing — poem / lyric fragment.",
-    "file": "personal/2015-03-15-note-15-march-2015-2.html",
+    "date": "2015-12-10",
+    "snippet": "Maybe it's the moonlight",
+    "file": "personal/2015-12-10-song.html",
     "actions": []
   },
   {
-    "title": "Note — 23 July 2015",
+    "title": "Wedding details",
+    "area": "content",
+    "date": "2015-10-18",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "content/2015-10-18-wedding-details.html",
+    "actions": []
+  },
+  {
+    "title": "Wedding party",
+    "area": "personal",
+    "date": "2015-08-09",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2015-08-09-wedding-party.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
     "area": "personal",
     "date": "2015-07-23",
-    "snippet": "Brief personal note.",
+    "snippet": "Camouflage straps Carved wood stool. Ray to make?",
+    "file": "personal/2015-07-23-note-23-july-2015-2.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2015-07-23",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
     "file": "personal/2015-07-23-note-23-july-2015.html",
     "actions": []
   },
   {
-    "title": "Writing — story ideas",
+    "title": "Note",
     "area": "personal",
-    "date": "2026-04-23",
-    "snippet": "Consolidated story concepts spanning 2015–2021: future brain hack, robot kids taxi, off-grid society, photographic memory character, code breakers. Plus Pixar story structure template.",
-    "file": "personal/2026-04-23-writing-story-ideas.html",
+    "date": "2015-07-22",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2015-07-22-note-22-july-2015.html",
     "actions": []
   },
   {
-    "title": "Writing — poems & observations",
+    "title": "Nice quote",
     "area": "personal",
-    "date": "2026-04-23",
-    "snippet": "Poem for Kara, a poem fragment, an emotion series, song and rhyme ideas, a library observation, dream fragments, and writing resources including the R.L. Stine writing programme.",
-    "file": "personal/2026-04-23-writing-poems-observations.html",
+    "date": "2015-07-07",
+    "snippet": "Live/ride as gods but one day one must return to the world of men",
+    "file": "personal/2015-07-07-nice-quote.html",
+    "actions": [
+      {
+        "text": "return to the world of men",
+        "date": null
+      }
+    ]
+  },
+  {
+    "title": "Things I love",
+    "area": "personal",
+    "date": "2015-06-09",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2015-06-09-things-i-love.html",
     "actions": []
   },
   {
-    "title": "Cars — wishlist & notes",
+    "title": "Books",
     "area": "personal",
-    "date": "2026-04-25",
-    "snippet": "GR86 and Honda Stepwagon current vehicles. Wish list: Honda Integra Type R DC5, Eunos Roadster, Euro R. References saved for buying guides and DIY repairs.",
-    "file": "personal/2026-04-25-cars-wishlist.html",
+    "date": "2015-05-10",
+    "snippet": "The wasp factory Iain banks",
+    "file": "personal/2015-05-10-books.html",
     "actions": []
   },
   {
-    "title": "Home & house notes",
+    "title": "Note",
     "area": "personal",
-    "date": "2026-04-25",
-    "snippet": "Consolidation of house projects and to-dos: garage, garden, bathroom, shed dimensions, water damage notes. DIY references saved.",
-    "file": "personal/2026-04-25-home-house-notes.html",
+    "date": "2015-05-09",
+    "snippet": "This love is all I've got in my head, can't stop thinking if you Our relationship is like an onion. Many levels, we start at the outside edge. The getting to know each other phase and then as time mov",
+    "file": "personal/2015-05-09-note-9-may-2015.html",
+    "actions": [
+      {
+        "text": "find deeper levels",
+        "date": null
+      }
+    ]
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2015-04-28",
+    "snippet": "Hi I am writing this now as it's too late to chat about this. Sorry if I had a go at you earlier. I didn't mean to annoy you but I just said what was going through my mind at the time. I dropped the f",
+    "file": "personal/2015-04-28-note-28-april-2015.html",
+    "actions": [
+      {
+        "text": "it anyway. Love you",
+        "date": null
+      }
+    ]
+  },
+  {
+    "title": "ring bring",
+    "area": "personal",
+    "date": "2015-04-24",
+    "snippet": "sc941099083gb",
+    "file": "personal/2015-04-24-ring-bring.html",
     "actions": []
   },
   {
-    "title": "Stewartby contacts",
+    "title": "Note",
     "area": "personal",
-    "date": "2021-06-12",
-    "snippet": "Keith and Sarah, Ashley and Amy, Emmanuel and Lissa, Carol and Mark.",
-    "file": "personal/2021-06-12-stewartby-contacts.html",
+    "date": "2015-04-22",
+    "snippet": "Donnie Scott Shiam",
+    "file": "personal/2015-04-22-note-22-april-2015-2.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2015-04-22",
+    "snippet": "Picture in your own little bubble, girl skipping away with the fairies",
+    "file": "personal/2015-04-22-note-22-april-2015.html",
+    "actions": []
+  },
+  {
+    "title": "Ash 37 24",
+    "area": "personal",
+    "date": "2015-04-18",
+    "snippet": "Hazel 7 8 Lou 43 1",
+    "file": "personal/2015-04-18-ash-37-24.html",
+    "actions": []
+  },
+  {
+    "title": "Sign on tag  ?",
+    "area": "personal",
+    "date": "2015-04-18",
+    "snippet": "Who made my clothes? John made these clothes 24/04/15",
+    "file": "personal/2015-04-18-sign-on-tag.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2015-04-15",
+    "snippet": "Draw dreams",
+    "file": "personal/2015-04-15-note-15-april-2015.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2015-03-15",
+    "snippet": "You're pacing, frustrating, basing casing",
+    "file": "personal/2015-03-15-note-15-march-2015-2.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2015-03-15",
+    "snippet": "Angry snap lost it",
+    "file": "personal/2015-03-15-note-15-march-2015.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2015-02-21",
+    "snippet": "It always rains on Mondays song",
+    "file": "personal/2015-02-21-note-21-february-2015-2.html",
+    "actions": [
+      {
+        "text": "It always rains on Mondays song",
+        "date": null
+      }
+    ]
+  },
+  {
+    "title": "Note",
+    "area": "personal",
+    "date": "2015-02-21",
+    "snippet": "Rio",
+    "file": "personal/2015-02-21-note-21-february-2015.html",
+    "actions": []
+  },
+  {
+    "title": "Rio",
+    "area": "personal",
+    "date": "2015-02-14",
+    "snippet": "{ background: #e8eeff; color: #3b5bdb; } .tag.personal { background: #e8f5e9; color: #2e7d32; } .tag.content { background: #fff3e0; color: #e65100; } .tag.side-hustle { background: #fce4ec; color: #c6",
+    "file": "personal/2015-02-14-rio.html",
+    "actions": []
+  },
+  {
+    "title": "Note",
+    "area": "work",
+    "date": "2015-01-24",
+    "snippet": "Plastering course",
+    "file": "work/2015-01-24-note-24-january-2015.html",
+    "actions": []
+  },
+  {
+    "title": "Watch \"Hotversion Vol.9 ① チューンドロードスターバトル！ ホットバージョン HV9  …\" on YouTube",
+    "area": "content",
+    "date": "2015-01-10",
+    "snippet": "Hotversion Vol.9 ① チューンドロードスターバトル！ ホットバージョン HV9  …: http://youtu.be/_DG7Illz90A Need English subtitles",
+    "file": "content/2015-01-10-watch-hotversion-vol9-hv9-on-youtube.html",
+    "actions": []
+  },
+  {
+    "title": "Art",
+    "area": "personal",
+    "date": "2015-01-03",
+    "snippet": "Use square's to make picture. Maybe use photo background and then paint on top",
+    "file": "personal/2015-01-03-art-2.html",
+    "actions": []
+  },
+  {
+    "title": "Art",
+    "area": "personal",
+    "date": "2015-01-03",
+    "snippet": "Newspaper print at bottom with black overlay. Cutout image above. Like PIC",
+    "file": "personal/2015-01-03-art.html",
+    "actions": []
+  },
+  {
+    "title": "Plot",
+    "area": "personal",
+    "date": "2015-01-03",
+    "snippet": "Where would you go that is free of the government? Want home schooling, learn own medicine, build own society. Have to be born somewhere at first but children could be free.",
+    "file": "personal/2015-01-03-plot.html",
+    "actions": []
+  },
+  {
+    "title": "Camera angles",
+    "area": "content",
+    "date": "2015-01-03",
+    "snippet": "On long stick, focus on feet walking On floor, focused on feet walking towards/away",
+    "file": "content/2015-01-03-camera-angles.html",
     "actions": []
   }
 ]
